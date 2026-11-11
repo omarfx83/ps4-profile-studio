@@ -370,6 +370,13 @@ the bundled runtime, `README.txt`, `LICENSE` and `THIRD-PARTY-NOTICES.txt`.
 The release notes are generated from `packaging\RELEASE-NOTES.md`.
 Override the version with `.\build.ps1 -Version 1.0.0`.
 
+## Support this project
+
+PS4 Profile Studio is free, MIT-licensed, and has no ads or locked features.
+If it saved you time, you can leave a tip — it goes straight into development.
+
+[**ko-fi.com/omarfx83**](https://ko-fi.com/omarfx83)
+
 ## License
 
 Released under the **MIT License** — see [`LICENSE`](LICENSE).

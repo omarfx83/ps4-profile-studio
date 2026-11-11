@@ -49,4 +49,9 @@ your PC" because the build is not code-signed — click **More info → Run anyw
 - A PS4 on the same network running GoldHEN with its FTP server enabled
   (default port 2121). The console must be reachable from the PC.
 
+## Support
+
+PS4 Profile Studio is free software with no ads or locked features. If it saved
+you time, tips are welcome at https://ko-fi.com/omarfx83
+
 Full documentation: https://github.com/omarfx83/ps4-profile-studio

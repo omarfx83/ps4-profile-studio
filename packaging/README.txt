@@ -49,6 +49,12 @@ NOTES
   activation use Apollo Save Tool > "Activate Offline Account".
 - Avatar changes work on any profile.
 
+SUPPORT
+-------
+Free and open source: no ads, no locked features. If this app saved you time,
+you can leave a tip here:
+https://ko-fi.com/omarfx83
+
 LICENSE
 -------
 MIT. Bundled third-party components and their license texts are listed in
