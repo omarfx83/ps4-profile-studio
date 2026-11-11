@@ -35,6 +35,20 @@ Windows may warn that the app is unsigned — click **More info → Run anyway**
 
 Everything lives in the extracted folder, so deleting it uninstalls the app.
 
+## Screenshots
+
+| Editor — crop | Editor — PS4 preview |
+|---|---|
+| ![Crop the photo](screenshots/editor-crop.png) | ![Previews with the PS4 blue background](screenshots/editor-preview.png) |
+
+| Send to the console | Profile name and symbols |
+|---|---|
+| ![Send avatar panel](screenshots/send.png) | ![Profile name tab](screenshots/profile.png) |
+
+| Mask picker | Symbol picker (275 symbols) |
+|---|---|
+| ![Mask dropdown](screenshots/mask-menu.png) | ![Symbol grid](screenshots/symbols.png) |
+
 The sections below cover running from source and how the app works.
 
 ## Requirements (running from source)
