@@ -39,7 +39,7 @@ Everything lives in the extracted folder, so deleting it uninstalls the app.
 
 | Editor — crop | Editor — PS4 preview |
 |---|---|
-| ![Crop the photo](screenshots/editor-crop.png) | ![Previews with the PS4 blue background](screenshots/editor-preview.png) |
+| ![Crop the photo](screenshots/crop.png) | ![Previews with the PS4 blue background](screenshots/preview.png) |
 
 | Send to the console | Profile name and symbols |
 |---|---|
@@ -47,7 +47,7 @@ Everything lives in the extracted folder, so deleting it uninstalls the app.
 
 | Mask picker | Symbol picker (275 symbols) |
 |---|---|
-| ![Mask dropdown](screenshots/mask-menu.png) | ![Symbol grid](screenshots/symbols.png) |
+| ![Mask dropdown](screenshots/masks.png) | ![Symbol grid](screenshots/symbols.png) |
 
 The sections below cover running from source and how the app works.
 
