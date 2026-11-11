@@ -1,0 +1,88 @@
+name: Bug report
+description: Something in the app is broken or behaves unexpectedly
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please fill in as much as you can — the
+        version numbers and the exact steps make it much easier to reproduce.
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Shown in the top-right corner of the window (for example `v1.0.0`).
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install-type
+    attributes:
+      label: How are you running it?
+      options:
+        - Portable ZIP (PS4 Profile Studio.exe)
+        - From source (python profile_studio.py)
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: For example Windows 10 22H2 or Windows 11 24H2 (64-bit).
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+
+  - type: input
+    id: console
+    attributes:
+      label: PS4 firmware and GoldHEN version
+      description: For example "9.00 / GoldHEN 2.4b18". Skip this if the bug is not about connecting to the console.
+      placeholder: 9.00 / GoldHEN 2.4b18
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Avatar > Editor
+        2. Load a PNG
+        3. Click Apply Crop
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or dialog text
+      description: Copy the text of any error dialog, if one appeared.
+      render: text
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag images here if they help show the problem.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I extracted the ZIP to a folder before running the .exe
+        - label: I checked that GoldHEN is running with its FTP server enabled (connection issues only)
+        - label: I searched existing issues for the same problem
+          required: true

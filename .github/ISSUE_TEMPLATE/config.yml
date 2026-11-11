@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download the latest release
+    url: https://github.com/omarfx83/ps4-profile-studio/releases
+    about: Get the portable Windows build and the release notes.
+  - name: Read the documentation
+    url: https://github.com/omarfx83/ps4-profile-studio#readme
+    about: Setup, connection requirements and how each tab works.
