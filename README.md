@@ -1,7 +1,10 @@
 # PS4 Profile Studio
 
 A small Windows desktop app that turns **one image (PNG or JPG)** into a complete
-PS4 profile avatar set and can send it straight to the console:
+PS4 profile avatar set, **sends it straight to the console over GoldHEN FTP**, and
+**edits a profile's display name with a built-in picker of 275 PS4 symbols**.
+
+Output files:
 
 | File | Size | Format |
 |---|---|---|
@@ -17,7 +20,6 @@ What it does:
 - uploads the set to one user or to every user over GoldHEN's FTP
 - edits a profile's display name with a built-in picker of 275 PS4 symbols
 - remembers up to 10 consoles, each with an optional friendly name
-
 > **Custom profile names need activation.** The console shows a user's custom
 > name (the field this app edits) only once that profile is **activated** — for a
 > never-activated local user it keeps its own local name. For offline activation,

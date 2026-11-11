@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ps4-profile-studio"
 version = "1.0.0"
-description = "Crop one image and export or send a PS4 profile avatar set"
+description = "Builds PS4 profile avatar sets from one image, uploads them over GoldHEN FTP, and edits profile names with a symbol picker"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["Pillow>=10", "PySide6-Essentials>=6.6"]

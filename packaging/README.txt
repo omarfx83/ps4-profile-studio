@@ -1,6 +1,10 @@
 PS4 Profile Studio @VERSION@
 =============================
 
+Builds a PS4 profile avatar set from one image, sends it to the console over
+GoldHEN FTP, and edits a profile's display name with a built-in picker of
+275 PS4 symbols.
+
 Portable build - no installation and no Python required.
 
 HOW TO RUN

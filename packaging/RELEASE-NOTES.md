@@ -1,6 +1,6 @@
-A portable Windows app for PS4 profile avatars: turn one image into the complete
-avatar file set, send it to the console over GoldHEN FTP, and edit a profile's
-display name with a symbol picker.
+A portable Windows app for PS4 profiles: turn one image into the complete avatar
+file set, send it to the console over GoldHEN FTP, and edit a profile's display
+name with a picker of 275 PS4 symbols.
 
 ## Download
 
