@@ -1,7 +1,7 @@
 # PS4 Profile Studio
 
-A small desktop app that turns **one JPG or PNG** into a complete PS4 profile
-avatar set:
+A small Windows desktop app that turns **one image (PNG or JPG)** into a complete
+PS4 profile avatar set and can send it straight to the console:
 
 | File | Size | Format |
 |---|---|---|
@@ -10,6 +10,13 @@ avatar set:
 | `avatar260.dds` | 260 × 260 | DDS, DXT5 |
 | `avatar440.dds` | 440 × 440 | DDS, DXT5 |
 | `avatar440.png` | 440 × 440 | PNG (RGBA) |
+
+What it does:
+
+- crops, masks and exports the avatar set above from a single photo
+- uploads the set to one user or to every user over GoldHEN's FTP
+- edits a profile's display name with a built-in picker of 275 PS4 symbols
+- remembers up to 10 consoles, each with an optional friendly name
 
 > **Custom profile names need activation.** The console shows a user's custom
 > name (the field this app edits) only once that profile is **activated** — for a
@@ -22,9 +29,11 @@ avatar set:
 Grab `PS4-Profile-Studio-<version>-win64.zip` from the
 [releases page](https://github.com/omarfx83/ps4-profile-studio/releases),
 extract it, and run `PS4 Profile Studio.exe`. **No Python and no installation
-required.**
+required** — Windows 10 or 11, 64-bit.
 
 Windows may warn that the app is unsigned — click **More info → Run anyway**.
+
+Everything lives in the extracted folder, so deleting it uninstalls the app.
 
 The sections below cover running from source and how the app works.
 
@@ -37,8 +46,8 @@ The sections below cover running from source and how the app works.
 ## Run
 
 **Double-click `PS4 Profile Studio.bat`.** It checks for Python and the
-dependencies (installing them if needed) and starts the app without a console
-window.
+dependencies (installing them if needed) and starts the app with `pythonw`, so
+no console window stays open.
 
 Or from a terminal:
 
@@ -68,7 +77,7 @@ python profile_studio.py --open "C:\path\to\photo.jpg"
      entire photo in one click — useful when the subject doesn't fit a
      short-edge square.
 3. **Apply Crop** — the right panel shows real previews for 440 / 260 / 128 / 64.
-   The 440 preview is encoded to DXT5 and decoded back, so you see the actual
+   Every preview is encoded to DXT5 and decoded back, so you see the actual
    compression result, not a clean resize.
 4. **Re-crop** — go back to the crop screen with the same selection still in
    place, adjust, and apply again.
@@ -104,6 +113,21 @@ python profile_studio.py --open "C:\path\to\photo.jpg"
 Open the **Avatar** tab and switch to its **Send** sub-tab (next to **Editor**).
 The user list is on the left; the **Send avatar** panel on the right sends the
 finished avatar set straight to the console.
+
+### Before you connect
+
+The app talks to **GoldHEN's built-in FTP server**, so the console must be
+prepared first:
+
+1. Start GoldHEN on the PS4 (it prints the console's IP address on screen).
+2. Make sure its **FTP server** is enabled — the default port is **2121**.
+3. Keep the PC and the PS4 on the same network.
+
+You can also read the IP from the console itself:
+**Settings → Network → View Connection Status → IP Address**.
+
+If a connection fails, check in this order: GoldHEN is running, the FTP server
+is enabled, the address has no typo, and the PC can reach the console's network.
 
 ### Connect (top bar)
 
@@ -191,9 +215,9 @@ The **Profile** tab edits a user's **display name** (`online.json` →
    stored it. If the user has **no `online.json` yet** (a fresh/offline profile
    that was never activated), the app creates a minimal, console-shaped one
    with the entered name instead of failing.
-5. The name is limited to **16 characters** (the console's maximum). After a
-   successful apply the app re-reads the console; if the name doesn't refresh on
-   the PS4 itself, restart it (or sign out and back in).
+5. The name is capped at **16 characters**. After a successful apply the app
+   re-reads the console; if the name doesn't refresh on the PS4 itself, restart
+   it (or sign out and back in).
 
 **Reset** reverts the field to the last loaded name (not applied yet).
 
@@ -217,7 +241,7 @@ Account"**.
    (over FTP — GoldHEN uses port 2121).
 2. Keep the existing `online.json` and `version.json` if you are not replacing
    them.
-3. Reboot, or log out and back in, to see the new avatar.
+3. Restart the console (or sign out and back in) if the avatar doesn't appear.
 
 The **Avatar → Send** view does all of this for you, including the backup.
 
@@ -235,11 +259,21 @@ The **Avatar → Send** view does all of this for you, including the backup.
 - The working copy of very large images is capped at 2000 px, which is far more
   than the 440 px output needs and keeps the editor responsive.
 - EXIF orientation is applied automatically, so phone photos are not sideways.
-- PNG transparency is preserved; `Circle mask` uses an antialiased alpha mask.
+- PNG transparency is preserved, and every mask is applied through an
+  antialiased alpha channel.
 - DXT5 is lossy. Sharp diagonal edges may show slight blockiness — this is
   exactly what the PS4 will display.
 - The **Inter** typeface is bundled with the app, so no font installation is
   needed (SIL Open Font License, see `ps4_avatar_qt/assets/fonts/OFL.txt`).
+
+## Portable by design
+
+The app never installs anything. Settings (`profile_studio.local.json`, which
+holds the console list) and `backups/` live next to the executable, so the whole
+folder can be moved to another PC or a USB stick. If that folder is not writable,
+the app falls back to `%APPDATA%\PS4ProfileStudio\`.
+
+To uninstall, delete the folder.
 
 ## Command-line alternative
 
@@ -271,6 +305,7 @@ ps4_avatar_qt/              Qt application (PySide6)
   session.py                shared PS4 FTP connection
   theme.py                  colours, fonts, spacing, QSS
   symbols.py                the PS4 symbol set loader
+  resources.py              bundled-asset paths (works in a packaged build)
   ui/connection_bar.py      top-bar connection controls
   ui/user_list.py           shared single-select user list / cards
   ui/editor_view.py         Avatar tab: crop editor
@@ -317,6 +352,9 @@ Override the version with `.\build.ps1 -Version 1.0.0`.
 
 Released under the **MIT License** — see [`LICENSE`](LICENSE).
 
-Bundled assets: the **Inter** typeface is included under the SIL Open Font
-License (see `ps4_avatar_qt/assets/fonts/OFL.txt`).
+Bundled components: the **Inter** typeface (SIL Open Font License, see
+`ps4_avatar_qt/assets/fonts/OFL.txt`), plus Python, Qt/PySide6 and Pillow.
+Their notices and full license texts are in
+[`packaging/THIRD-PARTY-NOTICES.txt`](packaging/THIRD-PARTY-NOTICES.txt) and are
+shipped in the `licenses/` folder of the release ZIP.
 

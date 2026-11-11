@@ -13,18 +13,30 @@ HOW TO RUN
 Windows may show "Windows protected your PC" because the app is not
 code-signed. Click "More info" > "Run anyway".
 
+QUICK START
+-----------
+1. Start GoldHEN on the PS4 and make sure its FTP server is enabled
+   (default port 2121).
+2. Run the app, enter the console's IP address, click Connect.
+3. Avatar tab > Editor: open a photo, adjust the crop, Apply Crop.
+4. Avatar tab > Send: pick a user, then Send avatar.
+5. Profile tab: change a profile's display name with the symbol picker.
+
 REQUIREMENTS
 ------------
 - Windows 10 or 11, 64-bit
-- A PS4 on the same network running GoldHEN with its FTP server enabled
-  (default port 2121)
+- A PS4 on the same network running GoldHEN, with its FTP server enabled
+  (default port 2121). GoldHEN shows the console's IP on screen; the PS4
+  also lists it under Settings > Network > View Connection Status.
 
 DATA
 ----
-The list of consoles you have connected to (with their names) and profile
-backups are stored next to the executable, so the whole folder stays portable.
-If that folder is read-only (for example under Program Files), the app uses
-%APPDATA%\PS4ProfileStudio instead.
+The list of consoles you connect to (with their names) and the profile
+backups are stored next to the executable, so the whole folder stays
+portable. If that folder is read-only (for example under Program Files),
+the app uses %APPDATA%\PS4ProfileStudio instead.
+
+To uninstall, delete this folder.
 
 NOTES
 -----
@@ -35,5 +47,6 @@ NOTES
 
 LICENSE
 -------
-MIT. Bundled third-party components are listed in THIRD-PARTY-NOTICES.txt.
+MIT. Bundled third-party components and their license texts are listed in
+THIRD-PARTY-NOTICES.txt and shipped in the "licenses" folder.
 Full documentation: https://github.com/omarfx83/ps4-profile-studio

@@ -33,7 +33,8 @@ your PC" because the build is not code-signed — click **More info → Run anyw
   rename, most recent first.
 - **Profile names** — edit the display name with a picker of 275 symbols.
 - **Portable** — settings and backups live next to the executable, with an
-  `%APPDATA%\PS4ProfileStudio` fallback for read-only folders.
+  `%APPDATA%\PS4ProfileStudio` fallback for read-only folders. Delete the folder
+  to uninstall.
 
 ## Notes
 
@@ -46,6 +47,6 @@ your PC" because the build is not code-signed — click **More info → Run anyw
 
 - Windows 10 or 11, 64-bit
 - A PS4 on the same network running GoldHEN with its FTP server enabled
-  (default port 2121)
+  (default port 2121). The console must be reachable from the PC.
 
 Full documentation: https://github.com/omarfx83/ps4-profile-studio

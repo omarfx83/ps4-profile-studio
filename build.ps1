@@ -47,6 +47,7 @@ Remove-Item -Force "PS4 Profile Studio.spec" -ErrorAction SilentlyContinue
 
 & $venvPython -m PyInstaller --noconfirm --clean --windowed `
     --name "PS4 Profile Studio" `
+    --icon "ps4_avatar_qt\assets\app.ico" `
     --add-data "ps4_avatar_qt/assets;ps4_avatar_qt/assets" `
     --exclude-module numpy `
     --exclude-module psutil `
@@ -65,6 +66,8 @@ New-Item -ItemType Directory -Path $stage -Force | Out-Null
 Copy-Item "dist\PS4 Profile Studio\*" $stage -Recurse -Force
 Copy-Item "LICENSE" (Join-Path $stage "LICENSE")
 Copy-Item "packaging\THIRD-PARTY-NOTICES.txt" (Join-Path $stage "THIRD-PARTY-NOTICES.txt")
+New-Item -ItemType Directory -Path (Join-Path $stage "licenses") -Force | Out-Null
+Copy-Item "packaging\licenses\*" (Join-Path $stage "licenses") -Force
 
 $readme = (Get-Content "packaging\README.txt" -Raw).Replace("@VERSION@", $Version)
 [System.IO.File]::WriteAllText(

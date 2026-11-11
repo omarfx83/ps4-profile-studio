@@ -4,7 +4,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from PySide6.QtGui import QFont, QFontDatabase
+from PySide6.QtGui import QFont, QFontDatabase, QIcon
 from PySide6.QtWidgets import (QApplication, QHBoxLayout, QMainWindow,
                                QStackedWidget, QVBoxLayout, QWidget)
 
@@ -129,6 +129,7 @@ def _load_bundled_fonts():
 def _build_app():
     app = QApplication.instance() or QApplication(sys.argv)
     app.setStyle("Fusion")
+    app.setWindowIcon(QIcon(str(assets_path("app.png"))))
     _load_bundled_fonts()
     font = QFont()
     font.setFamilies(theme.FONT_FAMILIES)

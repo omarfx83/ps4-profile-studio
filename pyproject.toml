@@ -34,6 +34,7 @@ include = ["ps4_avatar*"]
 [tool.setuptools.package-data]
 "ps4_avatar_qt" = [
     "assets/*.png",
+    "assets/*.ico",
     "assets/fonts/*.ttf",
     "assets/fonts/*.txt",
     "assets/symbols/*.json",

@@ -10,7 +10,7 @@ First public release.
 
 - **Avatar editor** — open a PNG/JPG (or drag & drop one), crop it with a
   movable/resizable square selection, and preview the result at 440 / 260 / 128
-  / 64 px. The 440 preview is encoded to DXT5 and decoded back, so it shows the
+  / 64 px. Every preview is encoded to DXT5 and decoded back, so it shows the
   real compression result.
 - **Nine alpha masks** — Square, Circle, Rounded, Squircle, Hexagon, Octagon,
   Star, Diamond and Heart, with the mask outline drawn over the crop square and
@@ -43,8 +43,8 @@ First public release.
 
 ### Changed
 
-- The top bar replaces the IP field with a **Device** list of saved consoles;
-  the live connection state is shown next to it.
+- The top bar holds the **Device** list of saved consoles plus the live
+  connection state.
 - Settings and backups are stored next to the executable (portable), with a
   `%APPDATA%\PS4ProfileStudio` fallback when that folder is read-only.
 
