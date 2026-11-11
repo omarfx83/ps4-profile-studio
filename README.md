@@ -43,11 +43,17 @@ Everything lives in the extracted folder, so deleting it uninstalls the app.
 |---|---|---|
 | ![Mask menu](screenshots/masks.png) | ![PS4-blue preview](screenshots/preview.png) | ![Transparency preview](screenshots/transparency.png) |
 
-**Avatar tab — Send** and **Profile tab — symbol picker**
+**Avatar tab — Send**
 
 | | |
 |---|---|
-| ![Send avatar panel](screenshots/send.png) | ![Symbol picker](screenshots/symbols.png) |
+| ![Send avatar panel](screenshots/send.png) | |
+
+**Profile tab — display name and symbol picker**
+
+| | |
+|---|---|
+| ![Profile name panel](screenshots/profile.png) | ![Symbol picker](screenshots/symbols.png) |
 
 The sections below cover running from source and how the app works.
 
