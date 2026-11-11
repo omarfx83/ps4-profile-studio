@@ -20,11 +20,16 @@ What it does:
 - uploads the set to one user or to every user over GoldHEN's FTP
 - edits a profile's display name with a built-in picker of 275 PS4 symbols
 - remembers up to 10 consoles, each with an optional friendly name
+
 > **Custom profile names need activation.** The console shows a user's custom
 > name (the field this app edits) only once that profile is **activated** — for a
 > never-activated local user it keeps its own local name. For offline activation,
 > use **Apollo Save Tool → "Activate Offline Account"**, then the app's Profile
 > tab name changes appear. **Avatar changes work on any profile.**
+
+> **Support this project.** PS4 Profile Studio is free and MIT-licensed, with no
+> ads and no locked features. If it saved you time, you can
+> [leave a tip](https://ko-fi.com/omarfx83) — it goes straight into development.
 
 ## Download (Windows)
 
@@ -369,13 +374,6 @@ The ZIP contains a single `PS4 Profile Studio` folder with the executable,
 the bundled runtime, `README.txt`, `LICENSE` and `THIRD-PARTY-NOTICES.txt`.
 The release notes are generated from `packaging\RELEASE-NOTES.md`.
 Override the version with `.\build.ps1 -Version 1.0.0`.
-
-## Support this project
-
-PS4 Profile Studio is free, MIT-licensed, and has no ads or locked features.
-If it saved you time, you can leave a tip — it goes straight into development.
-
-[**ko-fi.com/omarfx83**](https://ko-fi.com/omarfx83)
 
 ## License
 

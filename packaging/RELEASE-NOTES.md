@@ -2,6 +2,9 @@ A portable Windows app for PS4 profiles: turn one image into the complete avatar
 file set, send it to the console over GoldHEN FTP, and edit a profile's display
 name with a picker of 275 PS4 symbols.
 
+> Free and MIT-licensed, with no ads and no locked features. If it saved you time,
+> [tips are welcome](https://ko-fi.com/omarfx83).
+
 ## Download
 
 | File | Size |
@@ -48,10 +51,5 @@ your PC" because the build is not code-signed — click **More info → Run anyw
 - Windows 10 or 11, 64-bit
 - A PS4 on the same network running GoldHEN with its FTP server enabled
   (default port 2121). The console must be reachable from the PC.
-
-## Support
-
-PS4 Profile Studio is free software with no ads or locked features. If it saved
-you time, tips are welcome at https://ko-fi.com/omarfx83
 
 Full documentation: https://github.com/omarfx83/ps4-profile-studio
