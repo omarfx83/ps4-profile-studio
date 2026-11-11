@@ -1,5 +1,10 @@
 # PS4 Profile Studio
 
+[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support_the_developer-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/omarfx83)
+[![Latest release](https://img.shields.io/github/v/release/omarfx83/ps4-profile-studio?label=release&color=4da3ff)](https://github.com/omarfx83/ps4-profile-studio/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-3da639)](LICENSE)
+[![Platform](https://img.shields.io/badge/Windows-10_%7C_11_x64-0078D6)](#download-windows)
+
 A small Windows desktop app that turns **one image (PNG or JPG)** into a complete
 PS4 profile avatar set, **sends it straight to the console over GoldHEN FTP**, and
 **edits a profile's display name with a built-in picker of 275 PS4 symbols**.
@@ -26,10 +31,6 @@ What it does:
 > never-activated local user it keeps its own local name. For offline activation,
 > use **Apollo Save Tool → "Activate Offline Account"**, then the app's Profile
 > tab name changes appear. **Avatar changes work on any profile.**
-
-> **Support this project.** PS4 Profile Studio is free and MIT-licensed, with no
-> ads and no locked features. If it saved you time, you can
-> [leave a tip](https://ko-fi.com/omarfx83) — it goes straight into development.
 
 ## Download (Windows)
 

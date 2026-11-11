@@ -1,9 +1,8 @@
+[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support_the_developer-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/omarfx83)
+
 A portable Windows app for PS4 profiles: turn one image into the complete avatar
 file set, send it to the console over GoldHEN FTP, and edit a profile's display
 name with a picker of 275 PS4 symbols.
-
-> Free and MIT-licensed, with no ads and no locked features. If it saved you time,
-> [tips are welcome](https://ko-fi.com/omarfx83).
 
 ## Download
 
