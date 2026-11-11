@@ -1,15 +1,15 @@
-# PS4 Profile Studio @VERSION@
-
-A portable Windows app that turns one image into a complete PS4 profile avatar
-set and sends it to the console.
+A portable Windows app for PS4 profile avatars: turn one image into the complete
+avatar file set, send it to the console over GoldHEN FTP, and edit a profile's
+display name with a symbol picker.
 
 ## Download
 
 | File | Size |
 |---|---|
 | `PS4-Profile-Studio-@VERSION@-win64.zip` | @SIZE@ MB |
+| `PS4-Profile-Studio-@VERSION@-win64.zip.sha256` | @SHA_SIZE@ bytes |
 
-SHA-256:
+SHA-256 of the ZIP:
 
 ```
 @SHA256@
@@ -22,7 +22,7 @@ your PC" because the build is not code-signed — click **More info → Run anyw
 ## Highlights
 
 - **Avatar editor** — crop with a square selection, preview at 440/260/128/64 px
-  (the 440 preview shows the real DXT5 compression), nine alpha masks, padding
+  (every tile is decoded from the real DXT5 output), nine alpha masks, padding
   control, and a PS4-blue preview.
 - **One-click upload** — connects to GoldHEN's FTP server, lists every profile
   on the console with its thumbnail and name, and sends the avatar set to one

@@ -83,10 +83,12 @@ $hash = (Get-FileHash $zipPath -Algorithm SHA256).Hash.ToLower()
 Set-Content -Path "$zipPath.sha256" -Value "$hash  $zipName" -Encoding ASCII
 
 $mb = [math]::Round((Get-Item $zipPath).Length / 1MB, 1)
+$shaBytes = (Get-Item "$zipPath.sha256").Length
 
 $notes = (Get-Content "packaging\RELEASE-NOTES.md" -Raw).
     Replace("@VERSION@", $Version).
     Replace("@SIZE@", "$mb").
+    Replace("@SHA_SIZE@", "$shaBytes").
     Replace("@SHA256@", $hash)
 [System.IO.File]::WriteAllText(
     (Join-Path $release "RELEASE-NOTES-$Version.md"), $notes,
