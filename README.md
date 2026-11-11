@@ -37,17 +37,23 @@ Everything lives in the extracted folder, so deleting it uninstalls the app.
 
 ## Screenshots
 
-| Editor — crop | Editor — PS4 preview |
+**Avatar tab — Editor**
+
+| Crop the photo | PS4-blue preview after Apply Crop |
 |---|---|
 | ![Crop the photo](screenshots/crop.png) | ![Previews with the PS4 blue background](screenshots/preview.png) |
 
-| Send to the console | Profile name and symbols |
-|---|---|
-| ![Send avatar panel](screenshots/send.png) | ![Profile name tab](screenshots/profile.png) |
+**Avatar tab — Editor (masks) and Send**
 
-| Mask picker | Symbol picker (275 symbols) |
+| Mask picker | Send avatar panel |
 |---|---|
-| ![Mask dropdown](screenshots/masks.png) | ![Symbol grid](screenshots/symbols.png) |
+| ![Mask dropdown](screenshots/masks.png) | ![Send avatar panel](screenshots/send.png) |
+
+**Profile tab — display name and symbols**
+
+| Profile name | Symbol picker (275 symbols) |
+|---|---|
+| ![Profile name tab](screenshots/profile.png) | ![Symbol grid](screenshots/symbols.png) |
 
 The sections below cover running from source and how the app works.
 
