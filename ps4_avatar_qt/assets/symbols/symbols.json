@@ -1,0 +1,2752 @@
+[
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 1",
+  "char": "",
+  "codepoints": [
+   "0xefe3"
+  ],
+  "icon": "social/1.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 2",
+  "char": "",
+  "codepoints": [
+   "0xf86e"
+  ],
+  "icon": "social/2.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 3",
+  "char": "",
+  "codepoints": [
+   "0xf868"
+  ],
+  "icon": "social/3.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 4",
+  "char": "",
+  "codepoints": [
+   "0xf870"
+  ],
+  "icon": "social/4.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 5",
+  "char": "",
+  "codepoints": [
+   "0xefe6"
+  ],
+  "icon": "social/5.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 6",
+  "char": "",
+  "codepoints": [
+   "0xefe4"
+  ],
+  "icon": "social/6.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 7",
+  "char": "",
+  "codepoints": [
+   "0xefe7"
+  ],
+  "icon": "social/7.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 8",
+  "char": "",
+  "codepoints": [
+   "0xefbf"
+  ],
+  "icon": "social/8.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 9",
+  "char": "",
+  "codepoints": [
+   "0xefe2"
+  ],
+  "icon": "social/9.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 10",
+  "char": "",
+  "codepoints": [
+   "0xef6e"
+  ],
+  "icon": "social/10.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 11",
+  "char": "",
+  "codepoints": [
+   "0xefc3"
+  ],
+  "icon": "social/11.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 12",
+  "char": "",
+  "codepoints": [
+   "0xefc9"
+  ],
+  "icon": "social/12.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 13",
+  "char": "",
+  "codepoints": [
+   "0xefc8"
+  ],
+  "icon": "social/13.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 14",
+  "char": "",
+  "codepoints": [
+   "0xefca"
+  ],
+  "icon": "social/14.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 15",
+  "char": "",
+  "codepoints": [
+   "0xefc6"
+  ],
+  "icon": "social/15.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 16",
+  "char": "",
+  "codepoints": [
+   "0xefc4"
+  ],
+  "icon": "social/16.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 17",
+  "char": "",
+  "codepoints": [
+   "0xefc7"
+  ],
+  "icon": "social/17.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 18",
+  "char": "",
+  "codepoints": [
+   "0xf872"
+  ],
+  "icon": "social/18.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 19",
+  "char": "",
+  "codepoints": [
+   "0xefc2"
+  ],
+  "icon": "social/19.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 20",
+  "char": "",
+  "codepoints": [
+   "0xf86f"
+  ],
+  "icon": "social/20.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 21",
+  "char": "",
+  "codepoints": [
+   "0xefc1"
+  ],
+  "icon": "social/21.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 22",
+  "char": "",
+  "codepoints": [
+   "0xefe1"
+  ],
+  "icon": "social/22.png"
+ },
+ {
+  "section": "social",
+  "section_label": "Social",
+  "label": "Social 23",
+  "char": "",
+  "codepoints": [
+   "0xef6a"
+  ],
+  "icon": "social/23.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 1",
+  "char": "",
+  "codepoints": [
+   "0xef91"
+  ],
+  "icon": "loghi/1.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 2",
+  "char": "",
+  "codepoints": [
+   "0xf8bc"
+  ],
+  "icon": "loghi/2.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 3",
+  "char": "",
+  "codepoints": [
+   "0xf8e6"
+  ],
+  "icon": "loghi/3.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 4",
+  "char": "",
+  "codepoints": [
+   "0xf8e4"
+  ],
+  "icon": "loghi/4.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 5",
+  "char": "",
+  "codepoints": [
+   "0xf8e5"
+  ],
+  "icon": "loghi/5.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 6",
+  "char": "",
+  "codepoints": [
+   "0xef9d"
+  ],
+  "icon": "loghi/6.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 7",
+  "char": "",
+  "codepoints": [
+   "0xf8ef"
+  ],
+  "icon": "loghi/7.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 8",
+  "char": "",
+  "codepoints": [
+   "0xf8f0"
+  ],
+  "icon": "loghi/8.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 9",
+  "char": "",
+  "codepoints": [
+   "0xf8f1"
+  ],
+  "icon": "loghi/9.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 10",
+  "char": "",
+  "codepoints": [
+   "0xf8ed"
+  ],
+  "icon": "loghi/10.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 11",
+  "char": "",
+  "codepoints": [
+   "0xf8ee"
+  ],
+  "icon": "loghi/11.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 12",
+  "char": "",
+  "codepoints": [
+   "0xef7f"
+  ],
+  "icon": "loghi/12.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 13",
+  "char": "",
+  "codepoints": [
+   "0xefde"
+  ],
+  "icon": "loghi/13.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 14",
+  "char": "",
+  "codepoints": [
+   "0xefdc"
+  ],
+  "icon": "loghi/14.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 15",
+  "char": "",
+  "codepoints": [
+   "0xefa5"
+  ],
+  "icon": "loghi/15.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 16",
+  "char": "",
+  "codepoints": [
+   "0xefdf"
+  ],
+  "icon": "loghi/16.png"
+ },
+ {
+  "section": "loghi",
+  "section_label": "Logos",
+  "label": "Logos 17",
+  "char": "",
+  "codepoints": [
+   "0xefdd"
+  ],
+  "icon": "loghi/17.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 1",
+  "char": "",
+  "codepoints": [
+   "0xef93"
+  ],
+  "icon": "psicon/1.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 2",
+  "char": "",
+  "codepoints": [
+   "0xef94"
+  ],
+  "icon": "psicon/2.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 3",
+  "char": "",
+  "codepoints": [
+   "0xf8b6"
+  ],
+  "icon": "psicon/3.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 4",
+  "char": "",
+  "codepoints": [
+   "0xefa2"
+  ],
+  "icon": "psicon/4.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 5",
+  "char": "",
+  "codepoints": [
+   "0xefd1"
+  ],
+  "icon": "psicon/5.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 6",
+  "char": "",
+  "codepoints": [
+   "0xefea"
+  ],
+  "icon": "psicon/6.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 7",
+  "char": "",
+  "codepoints": [
+   "0xefd2"
+  ],
+  "icon": "psicon/7.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 8",
+  "char": "",
+  "codepoints": [
+   "0xf8ec"
+  ],
+  "icon": "psicon/8.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 9",
+  "char": "",
+  "codepoints": [
+   "0xf8eb"
+  ],
+  "icon": "psicon/9.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 10",
+  "char": "",
+  "codepoints": [
+   "0xef92"
+  ],
+  "icon": "psicon/10.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 11",
+  "char": "",
+  "codepoints": [
+   "0xf8ea"
+  ],
+  "icon": "psicon/11.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 12",
+  "char": "",
+  "codepoints": [
+   "0xf8b7"
+  ],
+  "icon": "psicon/12.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 13",
+  "char": "",
+  "codepoints": [
+   "0xef96"
+  ],
+  "icon": "psicon/13.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 14",
+  "char": "",
+  "codepoints": [
+   "0xefcc"
+  ],
+  "icon": "psicon/14.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 15",
+  "char": "",
+  "codepoints": [
+   "0xefe9"
+  ],
+  "icon": "psicon/15.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 16",
+  "char": "",
+  "codepoints": [
+   "0xf8f8"
+  ],
+  "icon": "psicon/16.png"
+ },
+ {
+  "section": "psicon",
+  "section_label": "PS Icons",
+  "label": "PS Icons 17",
+  "char": "",
+  "codepoints": [
+   "0xf8f7"
+  ],
+  "icon": "psicon/17.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 1",
+  "char": "",
+  "codepoints": [
+   "0xf8b9"
+  ],
+  "icon": "controller/1.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 2",
+  "char": "",
+  "codepoints": [
+   "0xf888"
+  ],
+  "icon": "controller/2.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 3",
+  "char": "",
+  "codepoints": [
+   "0xf889"
+  ],
+  "icon": "controller/3.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 4",
+  "char": "",
+  "codepoints": [
+   "0xf88a"
+  ],
+  "icon": "controller/4.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 5",
+  "char": "",
+  "codepoints": [
+   "0xf8ba"
+  ],
+  "icon": "controller/5.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 6",
+  "char": "",
+  "codepoints": [
+   "0xf88b"
+  ],
+  "icon": "controller/6.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 7",
+  "char": "",
+  "codepoints": [
+   "0xf88c"
+  ],
+  "icon": "controller/7.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 8",
+  "char": "",
+  "codepoints": [
+   "0xf88d"
+  ],
+  "icon": "controller/8.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 9",
+  "char": "",
+  "codepoints": [
+   "0xf88e"
+  ],
+  "icon": "controller/9.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 10",
+  "char": "",
+  "codepoints": [
+   "0xf88f"
+  ],
+  "icon": "controller/10.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 11",
+  "char": "",
+  "codepoints": [
+   "0xf882"
+  ],
+  "icon": "controller/11.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 12",
+  "char": "",
+  "codepoints": [
+   "0xf883"
+  ],
+  "icon": "controller/12.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 13",
+  "char": "",
+  "codepoints": [
+   "0xf881"
+  ],
+  "icon": "controller/13.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 14",
+  "char": "",
+  "codepoints": [
+   "0xf880"
+  ],
+  "icon": "controller/14.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 15",
+  "char": "",
+  "codepoints": [
+   "0xf884"
+  ],
+  "icon": "controller/15.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 16",
+  "char": "",
+  "codepoints": [
+   "0xf887"
+  ],
+  "icon": "controller/16.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 17",
+  "char": "",
+  "codepoints": [
+   "0xf885"
+  ],
+  "icon": "controller/17.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 18",
+  "char": "",
+  "codepoints": [
+   "0xf886"
+  ],
+  "icon": "controller/18.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 19",
+  "char": "",
+  "codepoints": [
+   "0xef7e"
+  ],
+  "icon": "controller/19.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 20",
+  "char": "",
+  "codepoints": [
+   "0xf892"
+  ],
+  "icon": "controller/20.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 21",
+  "char": "",
+  "codepoints": [
+   "0xef95"
+  ],
+  "icon": "controller/21.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 22",
+  "char": "",
+  "codepoints": [
+   "0xef9c"
+  ],
+  "icon": "controller/22.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 23",
+  "char": "",
+  "codepoints": [
+   "0xef8f"
+  ],
+  "icon": "controller/23.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 24",
+  "char": "",
+  "codepoints": [
+   "0xef8e"
+  ],
+  "icon": "controller/24.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 25",
+  "char": "",
+  "codepoints": [
+   "0xef8c"
+  ],
+  "icon": "controller/25.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 26",
+  "char": "",
+  "codepoints": [
+   "0xef8d"
+  ],
+  "icon": "controller/26.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 27",
+  "char": "",
+  "codepoints": [
+   "0xef88"
+  ],
+  "icon": "controller/27.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 28",
+  "char": "",
+  "codepoints": [
+   "0xef8a"
+  ],
+  "icon": "controller/28.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 29",
+  "char": "",
+  "codepoints": [
+   "0xef89"
+  ],
+  "icon": "controller/29.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 30",
+  "char": "",
+  "codepoints": [
+   "0xef8b"
+  ],
+  "icon": "controller/30.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 31",
+  "char": "",
+  "codepoints": [
+   "0xef87"
+  ],
+  "icon": "controller/31.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 32",
+  "char": "",
+  "codepoints": [
+   "0xef86"
+  ],
+  "icon": "controller/32.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 33",
+  "char": "",
+  "codepoints": [
+   "0xef84"
+  ],
+  "icon": "controller/33.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 34",
+  "char": "",
+  "codepoints": [
+   "0xef85"
+  ],
+  "icon": "controller/34.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 35",
+  "char": "",
+  "codepoints": [
+   "0xef80"
+  ],
+  "icon": "controller/35.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 36",
+  "char": "",
+  "codepoints": [
+   "0xef82"
+  ],
+  "icon": "controller/36.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 37",
+  "char": "",
+  "codepoints": [
+   "0xef83"
+  ],
+  "icon": "controller/37.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 38",
+  "char": "",
+  "codepoints": [
+   "0xf895"
+  ],
+  "icon": "controller/38.png"
+ },
+ {
+  "section": "controller",
+  "section_label": "Controller",
+  "label": "Controller 39",
+  "char": "",
+  "codepoints": [
+   "0xf87f"
+  ],
+  "icon": "controller/39.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 1",
+  "char": "",
+  "codepoints": [
+   "0xf8c0"
+  ],
+  "icon": "keyboard/1.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 2",
+  "char": "",
+  "codepoints": [
+   "0xf8c1"
+  ],
+  "icon": "keyboard/2.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 3",
+  "char": "",
+  "codepoints": [
+   "0xf8c2"
+  ],
+  "icon": "keyboard/3.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 4",
+  "char": "",
+  "codepoints": [
+   "0xf8c3"
+  ],
+  "icon": "keyboard/4.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 5",
+  "char": "",
+  "codepoints": [
+   "0xf8c4"
+  ],
+  "icon": "keyboard/5.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 6",
+  "char": "",
+  "codepoints": [
+   "0xf8c5"
+  ],
+  "icon": "keyboard/6.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 7",
+  "char": "",
+  "codepoints": [
+   "0xf8c6"
+  ],
+  "icon": "keyboard/7.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 8",
+  "char": "",
+  "codepoints": [
+   "0xf8c7"
+  ],
+  "icon": "keyboard/8.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 9",
+  "char": "",
+  "codepoints": [
+   "0xf8c8"
+  ],
+  "icon": "keyboard/9.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 10",
+  "char": "",
+  "codepoints": [
+   "0xf8c9"
+  ],
+  "icon": "keyboard/10.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 11",
+  "char": "",
+  "codepoints": [
+   "0xe7c7"
+  ],
+  "icon": "keyboard/11.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 12",
+  "char": "",
+  "codepoints": [
+   "0xe7c8"
+  ],
+  "icon": "keyboard/12.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 13",
+  "char": "",
+  "codepoints": [
+   "0xe792"
+  ],
+  "icon": "keyboard/13.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 14",
+  "char": "",
+  "codepoints": [
+   "0xe793"
+  ],
+  "icon": "keyboard/14.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 15",
+  "char": "",
+  "codepoints": [
+   "0xe790"
+  ],
+  "icon": "keyboard/15.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 16",
+  "char": "",
+  "codepoints": [
+   "0xf8ca"
+  ],
+  "icon": "keyboard/16.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 17",
+  "char": "",
+  "codepoints": [
+   "0xe796"
+  ],
+  "icon": "keyboard/17.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 18",
+  "char": "",
+  "codepoints": [
+   "0xe791"
+  ],
+  "icon": "keyboard/18.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 19",
+  "char": "",
+  "codepoints": [
+   "0xf6c3"
+  ],
+  "icon": "keyboard/19.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 20",
+  "char": "",
+  "codepoints": [
+   "0xf8cb"
+  ],
+  "icon": "keyboard/20.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 21",
+  "char": "",
+  "codepoints": [
+   "0xf8cc"
+  ],
+  "icon": "keyboard/21.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 22",
+  "char": "",
+  "codepoints": [
+   "0xe78d"
+  ],
+  "icon": "keyboard/22.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 23",
+  "char": "",
+  "codepoints": [
+   "0xe78f"
+  ],
+  "icon": "keyboard/23.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 24",
+  "char": "",
+  "codepoints": [
+   "0xe78e"
+  ],
+  "icon": "keyboard/24.png"
+ },
+ {
+  "section": "keyboard",
+  "section_label": "Keyboard",
+  "label": "Keyboard 25",
+  "char": "",
+  "codepoints": [
+   "0xf6d4"
+  ],
+  "icon": "keyboard/25.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 1",
+  "char": "",
+  "codepoints": [
+   "0xefb1"
+  ],
+  "icon": "system/1.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 2",
+  "char": "",
+  "codepoints": [
+   "0xefbc"
+  ],
+  "icon": "system/2.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 3",
+  "char": "",
+  "codepoints": [
+   "0xefb0"
+  ],
+  "icon": "system/3.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 4",
+  "char": "",
+  "codepoints": [
+   "0xefcb"
+  ],
+  "icon": "system/4.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 5",
+  "char": "",
+  "codepoints": [
+   "0xefb4"
+  ],
+  "icon": "system/5.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 6",
+  "char": "",
+  "codepoints": [
+   "0xefaf"
+  ],
+  "icon": "system/6.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 7",
+  "char": "",
+  "codepoints": [
+   "0xefb7"
+  ],
+  "icon": "system/7.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 8",
+  "char": "",
+  "codepoints": [
+   "0xf87c"
+  ],
+  "icon": "system/8.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 9",
+  "char": "",
+  "codepoints": [
+   "0xefed"
+  ],
+  "icon": "system/9.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 10",
+  "char": "",
+  "codepoints": [
+   "0xefec"
+  ],
+  "icon": "system/10.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 11",
+  "char": "",
+  "codepoints": [
+   "0xef78"
+  ],
+  "icon": "system/11.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 12",
+  "char": "",
+  "codepoints": [
+   "0xef79"
+  ],
+  "icon": "system/12.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 13",
+  "char": "",
+  "codepoints": [
+   "0xefd5"
+  ],
+  "icon": "system/13.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 14",
+  "char": "",
+  "codepoints": [
+   "0xefad"
+  ],
+  "icon": "system/14.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 15",
+  "char": "",
+  "codepoints": [
+   "0xefd0"
+  ],
+  "icon": "system/15.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 16",
+  "char": "",
+  "codepoints": [
+   "0xefcf"
+  ],
+  "icon": "system/16.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 17",
+  "char": "",
+  "codepoints": [
+   "0xefd8"
+  ],
+  "icon": "system/17.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 18",
+  "char": "",
+  "codepoints": [
+   "0xefd7"
+  ],
+  "icon": "system/18.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 19",
+  "char": "",
+  "codepoints": [
+   "0xefb5"
+  ],
+  "icon": "system/19.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 20",
+  "char": "",
+  "codepoints": [
+   "0xefee"
+  ],
+  "icon": "system/20.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 21",
+  "char": "",
+  "codepoints": [
+   "0xefd3"
+  ],
+  "icon": "system/21.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 22",
+  "char": "",
+  "codepoints": [
+   "0xf863"
+  ],
+  "icon": "system/22.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 23",
+  "char": "",
+  "codepoints": [
+   "0xf864"
+  ],
+  "icon": "system/23.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 24",
+  "char": "",
+  "codepoints": [
+   "0xef72"
+  ],
+  "icon": "system/24.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 25",
+  "char": "",
+  "codepoints": [
+   "0xef73"
+  ],
+  "icon": "system/25.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 26",
+  "char": "",
+  "codepoints": [
+   "0xef74"
+  ],
+  "icon": "system/26.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 27",
+  "char": "",
+  "codepoints": [
+   "0xef75"
+  ],
+  "icon": "system/27.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 28",
+  "char": "",
+  "codepoints": [
+   "0xef76"
+  ],
+  "icon": "system/28.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 29",
+  "char": "",
+  "codepoints": [
+   "0xef77"
+  ],
+  "icon": "system/29.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 30",
+  "char": "",
+  "codepoints": [
+   "0xefb6"
+  ],
+  "icon": "system/30.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 31",
+  "char": "",
+  "codepoints": [
+   "0xefa7"
+  ],
+  "icon": "system/31.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 32",
+  "char": "",
+  "codepoints": [
+   "0xefce"
+  ],
+  "icon": "system/32.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 33",
+  "char": "",
+  "codepoints": [
+   "0xf874"
+  ],
+  "icon": "system/33.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 34",
+  "char": "",
+  "codepoints": [
+   "0xf8fe"
+  ],
+  "icon": "system/34.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 35",
+  "char": "",
+  "codepoints": [
+   "0xefb9"
+  ],
+  "icon": "system/35.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 36",
+  "char": "",
+  "codepoints": [
+   "0xf862"
+  ],
+  "icon": "system/36.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 37",
+  "char": "",
+  "codepoints": [
+   "0xeffa"
+  ],
+  "icon": "system/37.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 38",
+  "char": "",
+  "codepoints": [
+   "0xeffb"
+  ],
+  "icon": "system/38.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 39",
+  "char": "",
+  "codepoints": [
+   "0xf860"
+  ],
+  "icon": "system/39.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 40",
+  "char": "",
+  "codepoints": [
+   "0xf87e"
+  ],
+  "icon": "system/40.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 41",
+  "char": "",
+  "codepoints": [
+   "0xefba"
+  ],
+  "icon": "system/41.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 42",
+  "char": "",
+  "codepoints": [
+   "0xf873"
+  ],
+  "icon": "system/42.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 43",
+  "char": "",
+  "codepoints": [
+   "0xf879"
+  ],
+  "icon": "system/43.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 44",
+  "char": "",
+  "codepoints": [
+   "0xefbb"
+  ],
+  "icon": "system/44.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 45",
+  "char": "",
+  "codepoints": [
+   "0xef69"
+  ],
+  "icon": "system/45.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 46",
+  "char": "",
+  "codepoints": [
+   "0xef68"
+  ],
+  "icon": "system/46.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 47",
+  "char": "",
+  "codepoints": [
+   "0xef6b"
+  ],
+  "icon": "system/47.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 48",
+  "char": "",
+  "codepoints": [
+   "0xef6c"
+  ],
+  "icon": "system/48.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 49",
+  "char": "",
+  "codepoints": [
+   "0xf8dd"
+  ],
+  "icon": "system/49.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 50",
+  "char": "",
+  "codepoints": [
+   "0xf86b"
+  ],
+  "icon": "system/50.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 51",
+  "char": "",
+  "codepoints": [
+   "0xef63"
+  ],
+  "icon": "system/51.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 52",
+  "char": "",
+  "codepoints": [
+   "0xef64"
+  ],
+  "icon": "system/52.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 53",
+  "char": "",
+  "codepoints": [
+   "0xef65"
+  ],
+  "icon": "system/53.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 54",
+  "char": "",
+  "codepoints": [
+   "0xef66"
+  ],
+  "icon": "system/54.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 55",
+  "char": "",
+  "codepoints": [
+   "0xf871"
+  ],
+  "icon": "system/55.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 56",
+  "char": "",
+  "codepoints": [
+   "0xefeb"
+  ],
+  "icon": "system/56.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 57",
+  "char": "",
+  "codepoints": [
+   "0xf8bd"
+  ],
+  "icon": "system/57.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 58",
+  "char": "",
+  "codepoints": [
+   "0xefa4"
+  ],
+  "icon": "system/58.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 59",
+  "char": "",
+  "codepoints": [
+   "0xefa3"
+  ],
+  "icon": "system/59.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 60",
+  "char": "",
+  "codepoints": [
+   "0xf8be"
+  ],
+  "icon": "system/60.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 61",
+  "char": "",
+  "codepoints": [
+   "0xf8f4"
+  ],
+  "icon": "system/61.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 62",
+  "char": "",
+  "codepoints": [
+   "0xeff6"
+  ],
+  "icon": "system/62.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 63",
+  "char": "",
+  "codepoints": [
+   "0xeff4"
+  ],
+  "icon": "system/63.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 64",
+  "char": "",
+  "codepoints": [
+   "0xf8f3"
+  ],
+  "icon": "system/64.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 65",
+  "char": "",
+  "codepoints": [
+   "0xf8f5"
+  ],
+  "icon": "system/65.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 66",
+  "char": "",
+  "codepoints": [
+   "0xeff8"
+  ],
+  "icon": "system/66.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 67",
+  "char": "",
+  "codepoints": [
+   "0xeff0"
+  ],
+  "icon": "system/67.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 68",
+  "char": "",
+  "codepoints": [
+   "0xeff2"
+  ],
+  "icon": "system/68.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 69",
+  "char": "",
+  "codepoints": [
+   "0xf8f2"
+  ],
+  "icon": "system/69.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 70",
+  "char": "",
+  "codepoints": [
+   "0xe7e7"
+  ],
+  "icon": "system/70.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 71",
+  "char": "",
+  "codepoints": [
+   "0xe7e8"
+  ],
+  "icon": "system/71.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 72",
+  "char": "",
+  "codepoints": [
+   "0xe7e9"
+  ],
+  "icon": "system/72.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 73",
+  "char": "",
+  "codepoints": [
+   "0xe7ea"
+  ],
+  "icon": "system/73.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 74",
+  "char": "",
+  "codepoints": [
+   "0xe7eb"
+  ],
+  "icon": "system/74.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 75",
+  "char": "",
+  "codepoints": [
+   "0xe7ec"
+  ],
+  "icon": "system/75.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 76",
+  "char": "",
+  "codepoints": [
+   "0xe7ed"
+  ],
+  "icon": "system/76.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 77",
+  "char": "",
+  "codepoints": [
+   "0xe7ee"
+  ],
+  "icon": "system/77.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 78",
+  "char": "",
+  "codepoints": [
+   "0xe7f0"
+  ],
+  "icon": "system/78.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 79",
+  "char": "",
+  "codepoints": [
+   "0xe7f1"
+  ],
+  "icon": "system/79.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 80",
+  "char": "",
+  "codepoints": [
+   "0xe7f2"
+  ],
+  "icon": "system/80.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 81",
+  "char": "",
+  "codepoints": [
+   "0xe7f3"
+  ],
+  "icon": "system/81.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 82",
+  "char": "",
+  "codepoints": [
+   "0xe794"
+  ],
+  "icon": "system/82.png"
+ },
+ {
+  "section": "system",
+  "section_label": "System",
+  "label": "System 83",
+  "char": "",
+  "codepoints": [
+   "0xe795"
+  ],
+  "icon": "system/83.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 1",
+  "char": "",
+  "codepoints": [
+   "0xefe8"
+  ],
+  "icon": "misc/1.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 2",
+  "char": "",
+  "codepoints": [
+   "0xf8e0"
+  ],
+  "icon": "misc/2.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 3",
+  "char": "",
+  "codepoints": [
+   "0xf8e1"
+  ],
+  "icon": "misc/3.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 4",
+  "char": "",
+  "codepoints": [
+   "0xf8e2"
+  ],
+  "icon": "misc/4.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 5",
+  "char": "",
+  "codepoints": [
+   "0xf8e3"
+  ],
+  "icon": "misc/5.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 6",
+  "char": "",
+  "codepoints": [
+   "0xf8e9"
+  ],
+  "icon": "misc/6.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 7",
+  "char": "",
+  "codepoints": [
+   "0xf8d5"
+  ],
+  "icon": "misc/7.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 8",
+  "char": "",
+  "codepoints": [
+   "0xefb8"
+  ],
+  "icon": "misc/8.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 9",
+  "char": "",
+  "codepoints": [
+   "0xf8d6"
+  ],
+  "icon": "misc/9.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 10",
+  "char": "",
+  "codepoints": [
+   "0xf8d7"
+  ],
+  "icon": "misc/10.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 11",
+  "char": "",
+  "codepoints": [
+   "0xefab"
+  ],
+  "icon": "misc/11.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 12",
+  "char": "",
+  "codepoints": [
+   "0xefac"
+  ],
+  "icon": "misc/12.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 13",
+  "char": "",
+  "codepoints": [
+   "0xefaa"
+  ],
+  "icon": "misc/13.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 14",
+  "char": "",
+  "codepoints": [
+   "0xf878"
+  ],
+  "icon": "misc/14.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 15",
+  "char": "",
+  "codepoints": [
+   "0xef90"
+  ],
+  "icon": "misc/15.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 16",
+  "char": "",
+  "codepoints": [
+   "0xefa9"
+  ],
+  "icon": "misc/16.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 17",
+  "char": "",
+  "codepoints": [
+   "0xefa0"
+  ],
+  "icon": "misc/17.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 18",
+  "char": "",
+  "codepoints": [
+   "0xefbd"
+  ],
+  "icon": "misc/18.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 19",
+  "char": "",
+  "codepoints": [
+   "0xf875"
+  ],
+  "icon": "misc/19.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 20",
+  "char": "",
+  "codepoints": [
+   "0xefbe"
+  ],
+  "icon": "misc/20.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 21",
+  "char": "",
+  "codepoints": [
+   "0xef7a"
+  ],
+  "icon": "misc/21.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 22",
+  "char": "",
+  "codepoints": [
+   "0xef7b"
+  ],
+  "icon": "misc/22.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 23",
+  "char": "",
+  "codepoints": [
+   "0xef7c"
+  ],
+  "icon": "misc/23.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 24",
+  "char": "",
+  "codepoints": [
+   "0xef7d"
+  ],
+  "icon": "misc/24.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 25",
+  "char": "",
+  "codepoints": [
+   "0xef6d"
+  ],
+  "icon": "misc/25.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 26",
+  "char": "",
+  "codepoints": [
+   "0xefd6"
+  ],
+  "icon": "misc/26.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 27",
+  "char": "",
+  "codepoints": [
+   "0xf8d0"
+  ],
+  "icon": "misc/27.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 28",
+  "char": "",
+  "codepoints": [
+   "0xf8d1"
+  ],
+  "icon": "misc/28.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 29",
+  "char": "",
+  "codepoints": [
+   "0xf8d2"
+  ],
+  "icon": "misc/29.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 30",
+  "char": "",
+  "codepoints": [
+   "0xf8d3"
+  ],
+  "icon": "misc/30.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 31",
+  "char": "",
+  "codepoints": [
+   "0xef62"
+  ],
+  "icon": "misc/31.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 32",
+  "char": "",
+  "codepoints": [
+   "0xef99"
+  ],
+  "icon": "misc/32.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 33",
+  "char": "",
+  "codepoints": [
+   "0xef98"
+  ],
+  "icon": "misc/33.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 34",
+  "char": "",
+  "codepoints": [
+   "0xef9a"
+  ],
+  "icon": "misc/34.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 35",
+  "char": "",
+  "codepoints": [
+   "0xf8bf"
+  ],
+  "icon": "misc/35.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 36",
+  "char": "",
+  "codepoints": [
+   "0xefa1"
+  ],
+  "icon": "misc/36.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 37",
+  "char": "",
+  "codepoints": [
+   "0xf8bb"
+  ],
+  "icon": "misc/37.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 38",
+  "char": "",
+  "codepoints": [
+   "0xefa6"
+  ],
+  "icon": "misc/38.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 39",
+  "char": "",
+  "codepoints": [
+   "0xf876"
+  ],
+  "icon": "misc/39.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 40",
+  "char": "",
+  "codepoints": [
+   "0xf8b8"
+  ],
+  "icon": "misc/40.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 41",
+  "char": "",
+  "codepoints": [
+   "0xefd4"
+  ],
+  "icon": "misc/41.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 42",
+  "char": "",
+  "codepoints": [
+   "0xf861"
+  ],
+  "icon": "misc/42.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 43",
+  "char": "",
+  "codepoints": [
+   "0xefb2"
+  ],
+  "icon": "misc/43.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 44",
+  "char": "",
+  "codepoints": [
+   "0xefb3"
+  ],
+  "icon": "misc/44.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 45",
+  "char": "",
+  "codepoints": [
+   "0xefae"
+  ],
+  "icon": "misc/45.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 46",
+  "char": "",
+  "codepoints": [
+   "0xf87a"
+  ],
+  "icon": "misc/46.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 47",
+  "char": "",
+  "codepoints": [
+   "0xf001"
+  ],
+  "icon": "misc/47.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 48",
+  "char": "",
+  "codepoints": [
+   "0xf002"
+  ],
+  "icon": "misc/48.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 49",
+  "char": "",
+  "codepoints": [
+   "0xef6f"
+  ],
+  "icon": "misc/49.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 50",
+  "char": "",
+  "codepoints": [
+   "0xefa8"
+  ],
+  "icon": "misc/50.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 51",
+  "char": "",
+  "codepoints": [
+   "0xef67"
+  ],
+  "icon": "misc/51.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 52",
+  "char": "",
+  "codepoints": [
+   "0xeff9"
+  ],
+  "icon": "misc/52.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 53",
+  "char": "",
+  "codepoints": [
+   "0xf8df"
+  ],
+  "icon": "misc/53.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 54",
+  "char": "",
+  "codepoints": [
+   "0xf8db"
+  ],
+  "icon": "misc/54.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 55",
+  "char": "",
+  "codepoints": [
+   "0xf8de"
+  ],
+  "icon": "misc/55.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 56",
+  "char": "",
+  "codepoints": [
+   "0xf8f9"
+  ],
+  "icon": "misc/56.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 57",
+  "char": "",
+  "codepoints": [
+   "0xf865"
+  ],
+  "icon": "misc/57.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 58",
+  "char": "",
+  "codepoints": [
+   "0xf866"
+  ],
+  "icon": "misc/58.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 59",
+  "char": "",
+  "codepoints": [
+   "0xf877"
+  ],
+  "icon": "misc/59.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 60",
+  "char": "",
+  "codepoints": [
+   "0xf867"
+  ],
+  "icon": "misc/60.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 61",
+  "char": "",
+  "codepoints": [
+   "0xf8dc"
+  ],
+  "icon": "misc/61.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 62",
+  "char": "",
+  "codepoints": [
+   "0xef9e"
+  ],
+  "icon": "misc/62.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 63",
+  "char": "",
+  "codepoints": [
+   "0xf86c"
+  ],
+  "icon": "misc/63.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 64",
+  "char": "",
+  "codepoints": [
+   "0xef9f"
+  ],
+  "icon": "misc/64.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 65",
+  "char": "",
+  "codepoints": [
+   "0xf86a"
+  ],
+  "icon": "misc/65.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 66",
+  "char": "",
+  "codepoints": [
+   "0xef97"
+  ],
+  "icon": "misc/66.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 67",
+  "char": "",
+  "codepoints": [
+   "0xf87b"
+  ],
+  "icon": "misc/67.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 68",
+  "char": "",
+  "codepoints": [
+   "0xefe5"
+  ],
+  "icon": "misc/68.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 69",
+  "char": "",
+  "codepoints": [
+   "0xef9b"
+  ],
+  "icon": "misc/69.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 70",
+  "char": "",
+  "codepoints": [
+   "0xf87d"
+  ],
+  "icon": "misc/70.png"
+ },
+ {
+  "section": "misc",
+  "section_label": "Misc",
+  "label": "Misc 71",
+  "char": "",
+  "codepoints": [
+   "0xefcd"
+  ],
+  "icon": "misc/71.png"
+ }
+]

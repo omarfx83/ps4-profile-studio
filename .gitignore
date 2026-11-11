@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# App exports (generated avatars)
+output/
+out/
+avatar_out/
+export_test/
+
+# Local app state
+profile_studio.local.json
+backups/
+
+# Local-only test suite (kept out of the repository)
+tests/
+
+# Logs
+*.log
+
+# PyInstaller / packaging
+build/
+dist/
+release/
+*.spec

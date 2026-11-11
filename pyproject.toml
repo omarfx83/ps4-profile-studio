@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ps4-profile-studio"
+version = "1.0.0"
+description = "Crop one image and export or send a PS4 profile avatar set"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10", "PySide6-Essentials>=6.6"]
+authors = [{ name = "omarfx83" }]
+license = { text = "MIT" }
+keywords = ["ps4", "avatar", "dds", "goldhen", "ftp", "profile"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Graphics",
+]
+
+[project.urls]
+Homepage = "https://github.com/omarfx83/ps4-profile-studio"
+
+[project.scripts]
+ps4-profile-studio = "ps4_avatar_qt.app:main"
+
+[tool.setuptools.packages.find]
+include = ["ps4_avatar*"]
+
+[tool.setuptools.package-data]
+"ps4_avatar_qt" = [
+    "assets/*.png",
+    "assets/fonts/*.ttf",
+    "assets/fonts/*.txt",
+    "assets/symbols/*.json",
+    "assets/symbols/*/*.png",
+]

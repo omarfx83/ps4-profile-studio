@@ -1,0 +1,55 @@
+"""The PS4 symbol set: private-use characters plus their icon tiles.
+
+The data lives in ``assets/symbols/symbols.json`` (a bundled set). Each entry
+maps a PUA character to a small icon so the UI can show a picture while
+inserting the real character into a name field.
+
+Fields per symbol:
+    section        machine name of the category (e.g. "controller")
+    section_label  human label for the category (e.g. "Controller")
+    label          item label (e.g. "Controller 3")
+    char           the actual character to insert (may be >1 code point)
+    codepoints     list of "0xNNNN" strings
+    icon           path relative to assets/symbols/
+"""
+
+import json
+
+from .resources import assets_path
+
+_ASSETS = assets_path("symbols")
+_JSON = _ASSETS / "symbols.json"
+
+# Preferred order of categories in the picker.
+SECTION_ORDER = [
+    "psicon", "controller", "system", "social", "loghi", "keyboard",
+    "misc",
+]
+
+
+def load_symbols():
+    """Return the symbol list with an absolute ``icon_path`` added."""
+    try:
+        data = json.loads(_JSON.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    for item in data:
+        item["icon_path"] = _ASSETS / item["icon"]
+    return data
+
+
+SYMBOLS = load_symbols()
+
+
+def sections():
+    """Return [(section, label, [items...])] in display order."""
+    grouped = {}
+    for item in SYMBOLS:
+        grouped.setdefault(item["section"], []).append(item)
+    order = [s for s in SECTION_ORDER if s in grouped]
+    order += [s for s in grouped if s not in order]
+    result = []
+    for sec in order:
+        items = grouped[sec]
+        result.append((sec, items[0]["section_label"], items))
+    return result

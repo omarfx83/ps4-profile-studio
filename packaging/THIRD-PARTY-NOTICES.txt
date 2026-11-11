@@ -1,0 +1,27 @@
+PS4 Profile Studio bundles the following third-party components:
+
+Python
+  License: PSF License
+  https://www.python.org/
+
+PySide6 / Qt for Python
+  License: LGPLv3 (also available under GPLv3 or a commercial license)
+  https://www.qt.io/qt-for-python
+
+Qt
+  License: LGPLv3 (also available under GPLv3 or a commercial license)
+  https://www.qt.io/
+
+Pillow
+  License: HPND (MIT-CMU style)
+  https://python-pillow.org/
+
+Inter font
+  License: SIL Open Font License 1.1
+  The full license text is bundled at
+  _internal/ps4_avatar_qt/assets/fonts/OFL.txt
+  https://rsms.me/inter/
+
+PySide6 and Qt are used as dynamically linked libraries. Their license texts
+are included with the PySide6 package inside _internal and are available at
+the links above.
