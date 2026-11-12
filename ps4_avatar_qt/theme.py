@@ -127,6 +127,17 @@ def build_qss():
     }}
     QToolButton#emojiCell:disabled {{ color: {FAINT}; }}
 
+    /* --- skin tone swatches ------------------------------------------- */
+    QLabel#pickerNotice {{
+        color: {WARN};
+        font-size: 9pt;
+        font-weight: 600;
+        padding: 2px 0;
+    }}
+
+    QLabel#nameCounter {{ color: {MUTED}; font-size: 9pt; font-weight: 600; }}
+    QLabel#nameCounter[full="true"] {{ color: {WARN}; }}
+
     /* --- inputs -------------------------------------------------------- */
     QLineEdit {{
         background: {INPUT_BG};

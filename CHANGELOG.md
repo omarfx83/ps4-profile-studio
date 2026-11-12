@@ -15,6 +15,11 @@ All notable changes to PS4 Profile Studio are recorded here.
 - **Size hints for multi-part emoji.** A small number in the corner of a tile
   shows how many of the 16 name slots that emoji uses: flags and skin tones
   (👍🏽) take 2, joined families (👨‍👩‍👧) take 5. The tooltip spells it out.
+- **Skin tone picker.** A row of swatches above the emoji grid applies a tone
+  to every emoji that has one, so 👍 can be 👍🏻 👍🏼 👍🏽 👍🏾 or 👍🏿 instead
+  of getting whichever tone happened to be in the list.
+- **Character counter.** The Profile panel shows how many of the 16 characters
+  a name uses, and turns amber when the name is full.
 - **Flags are labelled with their country code** (JP, US, GB) in the picker.
   Windows' emoji font has no flag artwork, so this is what Windows draws for a
   flag character anyway; the console shows the real flag.
@@ -29,6 +34,14 @@ All notable changes to PS4 Profile Studio are recorded here.
 - **The name field stopped at 8 emoji instead of 16.** The text box counted
   UTF-16 code units while the console counts characters, so emoji were counted
   twice. The field now accepts a full 16-character name, emoji included.
+- **Clicks in the picker looked dead when the name was full.** They were being
+  rejected by the 16-character limit, with only a line of small text at the
+  bottom of the Profile panel to say so. The picker now shows a message where
+  you are looking, and the new counter shows the limit before you hit it.
+- **Backspace deleted half an emoji.** A toned emoji (👋🏽) is several
+  characters, so deleting walked through the tone first and left a plain hand
+  behind. Backspace and Delete now remove a whole emoji — flag, tone or joined
+  family — in one press.
 - **Emoji the system font cannot draw are no longer listed.** The picker only
   offers characters your Windows emoji font really renders, so no tile (and no
   inserted name) shows a `?` box.

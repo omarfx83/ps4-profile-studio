@@ -126,6 +126,12 @@ LINE = re.compile(
     r"^(?P<cps>[0-9A-F ]+)\s*;\s*(?P<status>\w[\w-]*)"
     r"\s*#\s*(?P<char>\S+)\s*E(?P<ver>[0-9.]+)\s*(?P<name>.+)$")
 
+# Skin tone names, in the order the picker shows them.
+TONES = ["light", "medium-light", "medium", "medium-dark", "dark"]
+
+TONE_LINE = re.compile(
+    r"^(?P<base>.+?): (?P<tone>" + "|".join(TONES) + r") skin tone$")
+
 
 def read_source(path):
     """Return the text of emoji-test.txt, downloading it when missing."""
@@ -193,9 +199,24 @@ def pick(entries, group_name, quota):
     return picked
 
 
+def tone_variants(entries):
+    """Return {base label: {tone: character}} from the Unicode list.
+
+    Only single-tone variants are kept. Entries that need two tones (a
+    handshake, two people holding hands) are left out rather than guessed at.
+    """
+    mapping = {}
+    for _group, _subgroup, char, name in entries:
+        match = TONE_LINE.match(name)
+        if match:
+            mapping.setdefault(match.group("base"), {})[match.group("tone")] = char
+    return mapping
+
+
 def build(text, drawable):
     entries = [entry for entry in parse_entries(text)
                if drawable(entry[2]) and not is_blocked(entry[2])]
+    tones = tone_variants(entries)
 
     sections = OrderedDict()
     for group, (section, label, quota) in GROUP_MAP.items():
@@ -217,13 +238,23 @@ def build(text, drawable):
     result = []
     for section in SECTION_ORDER:
         for char, name in sections[section]["items"]:
-            result.append({
+            item = {
                 "section": section,
                 "section_label": labels[section],
                 "label": name,
                 "char": char,
                 "slots": len(char),
-            })
+            }
+            variants = tones.get(name)
+            if variants:
+                # Only keep tones that are really a different character, and
+                # that the local font can draw too.
+                usable = {tone: variants[tone] for tone in TONES
+                          if tone in variants and variants[tone] != char
+                          and drawable(variants[tone])}
+                if usable:
+                    item["tones"] = usable
+            result.append(item)
     return result
 
 

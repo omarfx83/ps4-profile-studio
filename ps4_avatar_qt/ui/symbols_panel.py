@@ -4,15 +4,60 @@ Both kinds of glyph land in the same name field, so the panel exposes a single
 ``symbol_chosen`` signal regardless of which tab produced the character.
 """
 
-from PySide6.QtCore import QSize, Qt, Signal
-from PySide6.QtGui import QColor, QFont, QIcon, QPainter
-from PySide6.QtWidgets import (QGridLayout, QHBoxLayout, QScrollArea,
-                               QToolButton, QVBoxLayout, QWidget)
+from PySide6.QtCore import QSize, Qt, QTimer, Signal
+from PySide6.QtGui import QColor, QFont, QIcon, QPainter, QPen
+from PySide6.QtWidgets import (QAbstractButton, QButtonGroup, QGridLayout,
+                               QHBoxLayout, QLabel, QScrollArea, QToolButton,
+                               QVBoxLayout, QWidget)
 
 from .. import emoji as emoji_data
 from .. import theme
 from .widgets import ComboBox, SegmentedControl, make_faint
 from ps4_avatar_qt import symbols as symbol_data
+
+# Skin tones offered for emoji that have toned variants. The first entry is
+# "no tone", which leaves the emoji in its default yellow.
+TONE_CHOICES = [
+    (None, "Default (yellow)", "#ffcc4d"),
+    ("light", "Light", "#ffd7be"),
+    ("medium-light", "Medium-light", "#eeb98f"),
+    ("medium", "Medium", "#d29b72"),
+    ("medium-dark", "Medium-dark", "#a9714b"),
+    ("dark", "Dark", "#7c5333"),
+]
+TONE_LABELS = {tone: label for tone, label, _colour in TONE_CHOICES if tone}
+
+
+class ToneSwatch(QAbstractButton):
+    """Round colour swatch for picking a skin tone."""
+
+    def __init__(self, colour, tip, parent=None):
+        super().__init__(parent)
+        self._colour = QColor(colour)
+        self.setCheckable(True)
+        self.setFixedSize(26, 26)
+        self.setCursor(Qt.PointingHandCursor)
+        self.setToolTip(tip)
+
+    def paintEvent(self, event):
+        painter = QPainter(self)
+        painter.setRenderHint(QPainter.Antialiasing)
+        circle = self.rect().adjusted(3, 3, -3, -3)
+        painter.setPen(Qt.NoPen)
+        painter.setBrush(self._colour)
+        painter.drawEllipse(circle)
+        if self.isChecked():
+            pen = QPen(QColor(theme.ACCENT))
+            pen.setWidth(2)
+            painter.setPen(pen)
+            painter.setBrush(Qt.NoBrush)
+            painter.drawEllipse(self.rect().adjusted(1, 1, -1, -1))
+        elif self.underMouse():
+            pen = QPen(QColor(theme.MUTED))
+            pen.setWidth(1)
+            painter.setPen(pen)
+            painter.setBrush(Qt.NoBrush)
+            painter.drawEllipse(self.rect().adjusted(1, 1, -1, -1))
 
 # A flag is a pair of regional indicator symbols (U+1F1E6..U+1F1FF). Windows
 # has never shipped flag artwork: its emoji font draws the two letters instead,
@@ -38,12 +83,13 @@ class EmojiButton(QToolButton):
     Windows font can draw the flag itself.
     """
 
-    def __init__(self, item, parent=None):
+    def __init__(self, item, char=None, tone_label=None, parent=None):
         super().__init__(parent)
         self.setObjectName("emojiCell")
-        self._slots = int(item.get("slots", 1))
-        self._code = flag_code(item["char"])
-        self.setText("" if self._code else item["char"])
+        self.value = char or item["char"]
+        self._slots = len(self.value)
+        self._code = flag_code(self.value)
+        self.setText("" if self._code else self.value)
         self.setToolButtonStyle(Qt.ToolButtonTextOnly)
         self.setFixedSize(46, 46)
         self.setCursor(Qt.PointingHandCursor)
@@ -53,11 +99,14 @@ class EmojiButton(QToolButton):
             self.setToolTip(
                 f"{country} — the console shows the national flag "
                 f"(uses {self._slots} of 16 name slots)")
-        elif self._slots > 1:
-            self.setToolTip(
-                f"{item['label']} — uses {self._slots} of 16 name slots")
+            return
+        label = item["label"]
+        if tone_label:
+            label = f"{label} — {tone_label.lower()} skin tone"
+        if self._slots > 1:
+            self.setToolTip(f"{label} — uses {self._slots} of 16 name slots")
         else:
-            self.setToolTip(item["label"])
+            self.setToolTip(label)
 
     def paintEvent(self, event):
         super().paintEvent(event)
@@ -102,6 +151,7 @@ class SymbolsPanel(QWidget):
         self._emoji_groups = emoji_data.groups()
         self._groups = self._symbol_groups
         self._mode = "symbols"
+        self._tone = None
         self._build_ui()
         self._refresh_groups()
 
@@ -120,6 +170,26 @@ class SymbolsPanel(QWidget):
         head.addWidget(self.combo, 1)
         layout.addLayout(head)
 
+        # Skin tone: a row of swatches, so every tone is reachable for the
+        # gestures that support it instead of one arbitrary tone per gesture.
+        self.tone_row = QWidget()
+        tone_layout = QHBoxLayout(self.tone_row)
+        tone_layout.setContentsMargins(0, 0, 0, 0)
+        tone_layout.setSpacing(4)
+        tone_layout.addWidget(make_faint("Skin tone"))
+        self._tone_group = QButtonGroup(self)
+        self._tone_group.setExclusive(True)
+        for index, (_tone, tip, colour) in enumerate(TONE_CHOICES):
+            button = ToneSwatch(colour, tip)
+            if index == 0:
+                button.setChecked(True)
+            self._tone_group.addButton(button, index)
+            tone_layout.addWidget(button)
+        tone_layout.addStretch(1)
+        self._tone_group.idClicked.connect(self._set_tone)
+        self.tone_row.setVisible(False)
+        layout.addWidget(self.tone_row)
+
         self.scroll = QScrollArea()
         self.scroll.setWidgetResizable(True)
         self.body = QWidget()
@@ -136,8 +206,29 @@ class SymbolsPanel(QWidget):
         self.hint.setVisible(False)
         layout.addWidget(self.hint)
 
+        # Shown when the name field is full: the user must be able to see why
+        # a click did nothing without closing the picker.
+        self.notice = QLabel()
+        self.notice.setObjectName("pickerNotice")
+        self.notice.setWordWrap(True)
+        self.notice.setVisible(False)
+        layout.addWidget(self.notice)
+        self._notice_timer = QTimer(self)
+        self._notice_timer.setSingleShot(True)
+        self._notice_timer.timeout.connect(self.notice.hide)
+
         if not self._symbol_groups and not self._emoji_groups:
             layout.addWidget(make_faint("No symbols found."))
+
+    def notify(self, text, seconds=6):
+        """Show a message inside the picker, above the hint line."""
+        self.notice.setText(text)
+        self.notice.setVisible(True)
+        self._notice_timer.start(seconds * 1000)
+
+    def clear_notice(self):
+        self._notice_timer.stop()
+        self.notice.setVisible(False)
 
     def _set_mode(self, index):
         if index == 1:
@@ -147,7 +238,12 @@ class SymbolsPanel(QWidget):
             self._mode = "symbols"
             self._groups = self._symbol_groups
         self.hint.setVisible(self._mode == "emoji")
+        self.tone_row.setVisible(self._mode == "emoji")
         self._refresh_groups()
+
+    def _set_tone(self, index):
+        self._tone = TONE_CHOICES[index][0]
+        self._populate(self.combo.currentIndex())
 
     def _refresh_groups(self):
         self.combo.blockSignals(True)
@@ -203,11 +299,20 @@ class SymbolsPanel(QWidget):
 
     def _populate_emoji(self, items):
         for i, item in enumerate(items):
-            button = EmojiButton(item)
+            char, tone_label = self._toned(item)
+            button = EmojiButton(item, char=char, tone_label=tone_label)
             button.clicked.connect(
-                lambda _=False, ch=item["char"]: self.symbol_chosen.emit(ch))
+                lambda _=False, ch=button.value: self.symbol_chosen.emit(ch))
             self.grid.addWidget(button, i // self.EMOJI_COLUMNS,
                                  i % self.EMOJI_COLUMNS)
+
+    def _toned(self, item):
+        """Return (character, tone label) for the selected skin tone."""
+        if self._tone and item.get("tones"):
+            char = item["tones"].get(self._tone)
+            if char:
+                return char, TONE_LABELS.get(self._tone)
+        return item["char"], None
 
 
 class SymbolPickerPopup(QWidget):

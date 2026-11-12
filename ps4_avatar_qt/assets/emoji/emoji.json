@@ -410,84 +410,168 @@
   "section_label": "Smileys & people",
   "label": "waving hand",
   "char": "👋",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "👋🏻",
+   "medium-light": "👋🏼",
+   "medium": "👋🏽",
+   "medium-dark": "👋🏾",
+   "dark": "👋🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "OK hand",
   "char": "👌",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "👌🏻",
+   "medium-light": "👌🏼",
+   "medium": "👌🏽",
+   "medium-dark": "👌🏾",
+   "dark": "👌🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "backhand index pointing left",
   "char": "👈",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "👈🏻",
+   "medium-light": "👈🏼",
+   "medium": "👈🏽",
+   "medium-dark": "👈🏾",
+   "dark": "👈🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "thumbs up",
   "char": "👍",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "👍🏻",
+   "medium-light": "👍🏼",
+   "medium": "👍🏽",
+   "medium-dark": "👍🏾",
+   "dark": "👍🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "clapping hands",
   "char": "👏",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "👏🏻",
+   "medium-light": "👏🏼",
+   "medium": "👏🏽",
+   "medium-dark": "👏🏾",
+   "dark": "👏🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "writing hand",
   "char": "✍️",
-  "slots": 2
+  "slots": 2,
+  "tones": {
+   "light": "✍🏻",
+   "medium-light": "✍🏼",
+   "medium": "✍🏽",
+   "medium-dark": "✍🏾",
+   "dark": "✍🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "flexed biceps",
   "char": "💪",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "💪🏻",
+   "medium-light": "💪🏼",
+   "medium": "💪🏽",
+   "medium-dark": "💪🏾",
+   "dark": "💪🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "baby",
   "char": "👶",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "👶🏻",
+   "medium-light": "👶🏼",
+   "medium": "👶🏽",
+   "medium-dark": "👶🏾",
+   "dark": "👶🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "person frowning",
   "char": "🙍",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "🙍🏻",
+   "medium-light": "🙍🏼",
+   "medium": "🙍🏽",
+   "medium-dark": "🙍🏾",
+   "dark": "🙍🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "man health worker",
   "char": "👨‍⚕️",
-  "slots": 4
+  "slots": 4,
+  "tones": {
+   "light": "👨🏻‍⚕️",
+   "medium-light": "👨🏼‍⚕️",
+   "medium": "👨🏽‍⚕️",
+   "medium-dark": "👨🏾‍⚕️",
+   "dark": "👨🏿‍⚕️"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "baby angel",
   "char": "👼",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "👼🏻",
+   "medium-light": "👼🏼",
+   "medium": "👼🏽",
+   "medium-dark": "👼🏾",
+   "dark": "👼🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "person getting massage",
   "char": "💆",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "💆🏻",
+   "medium-light": "💆🏼",
+   "medium": "💆🏽",
+   "medium-dark": "💆🏾",
+   "dark": "💆🏿"
+  }
  },
  {
   "section": "smileys",
@@ -501,14 +585,28 @@
   "section_label": "Smileys & people",
   "label": "person in lotus position",
   "char": "🧘",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "🧘🏻",
+   "medium-light": "🧘🏼",
+   "medium": "🧘🏽",
+   "medium-dark": "🧘🏾",
+   "dark": "🧘🏿"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "people holding hands",
   "char": "🧑‍🤝‍🧑",
-  "slots": 5
+  "slots": 5,
+  "tones": {
+   "light": "🧑🏻‍🤝‍🧑🏻",
+   "medium-light": "🧑🏼‍🤝‍🧑🏼",
+   "medium": "🧑🏽‍🤝‍🧑🏽",
+   "medium-dark": "🧑🏾‍🤝‍🧑🏾",
+   "dark": "🧑🏿‍🤝‍🧑🏿"
+  }
  },
  {
   "section": "smileys",
@@ -606,7 +704,14 @@
   "section_label": "Smileys & people",
   "label": "horse racing",
   "char": "🏇",
-  "slots": 1
+  "slots": 1,
+  "tones": {
+   "light": "🏇🏻",
+   "medium-light": "🏇🏼",
+   "medium": "🏇🏽",
+   "medium-dark": "🏇🏾",
+   "dark": "🏇🏿"
+  }
  },
  {
   "section": "smileys",
@@ -697,21 +802,42 @@
   "section_label": "Smileys & people",
   "label": "woman technologist",
   "char": "👩‍💻",
-  "slots": 3
+  "slots": 3,
+  "tones": {
+   "light": "👩🏻‍💻",
+   "medium-light": "👩🏼‍💻",
+   "medium": "👩🏽‍💻",
+   "medium-dark": "👩🏾‍💻",
+   "dark": "👩🏿‍💻"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "man cook",
   "char": "👨‍🍳",
-  "slots": 3
+  "slots": 3,
+  "tones": {
+   "light": "👨🏻‍🍳",
+   "medium-light": "👨🏼‍🍳",
+   "medium": "👨🏽‍🍳",
+   "medium-dark": "👨🏾‍🍳",
+   "dark": "👨🏿‍🍳"
+  }
  },
  {
   "section": "smileys",
   "section_label": "Smileys & people",
   "label": "woman singer",
   "char": "👩‍🎤",
-  "slots": 3
+  "slots": 3,
+  "tones": {
+   "light": "👩🏻‍🎤",
+   "medium-light": "👩🏼‍🎤",
+   "medium": "👩🏽‍🎤",
+   "medium-dark": "👩🏾‍🎤",
+   "dark": "👩🏿‍🎤"
+  }
  },
  {
   "section": "smileys",

@@ -241,7 +241,8 @@ The **Profile** tab edits a user's **display name** (`online.json` →
    - **PS4 symbols** — **149 symbols** in 7 categories, plus an **All** group.
    - **Emoji** — **371 emoji** in 8 categories (Smileys & people, Animals &
      nature, Food & drink, Travel & places, Activities, Objects, Symbols,
-     Flags), plus an **All emoji** group.
+     Flags), plus an **All emoji** group. The swatches above the grid pick a
+     **skin tone**, which applies to every emoji that has one.
 
    Clicking any tile inserts its character straight into the name field — no
    copy/paste.
@@ -251,10 +252,12 @@ The **Profile** tab edits a user's **display name** (`online.json` →
    stored it. If the user has **no `online.json` yet** (a fresh/offline profile
    that was never activated), the app creates a minimal, console-shaped one
    with the entered name instead of failing.
-5. The name is capped at **16 characters**. The limit counts characters, not
-   bytes, so an emoji such as 😀 uses one slot even though it is stored as four
-   bytes. After a successful apply the app re-reads the console; if the name
-   doesn't refresh on the PS4 itself, restart it (or sign out and back in).
+5. The name is capped at **16 characters**, and the counter beside **PROFILE
+   NAME** shows how many are used. The limit counts characters, not bytes, so
+   an emoji such as 😀 uses one slot even though it is stored as four bytes.
+   If the name is full the picker says so instead of quietly ignoring clicks.
+   After a successful apply the app re-reads the console; if the name doesn't
+   refresh on the PS4 itself, restart it (or sign out and back in).
 
 **Reset** reverts the field to the last loaded name (not applied yet).
 

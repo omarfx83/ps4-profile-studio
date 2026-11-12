@@ -2,9 +2,9 @@
 
 import threading
 
-from PySide6.QtCore import Signal
-from PySide6.QtWidgets import (QFrame, QHBoxLayout, QLineEdit, QMessageBox,
-                               QPushButton, QVBoxLayout, QWidget)
+from PySide6.QtCore import QEvent, Qt, Signal
+from PySide6.QtWidgets import (QFrame, QHBoxLayout, QLabel, QLineEdit,
+                               QMessageBox, QPushButton, QVBoxLayout, QWidget)
 
 from .. import theme
 from .symbols_panel import SymbolPickerPopup
@@ -13,6 +13,69 @@ from .widgets import Separator, Switch, make_faint, make_heading, make_muted
 
 from ps4_avatar.ps4.profile import (backup_profile, get_name, read_profile,
                                     write_name)
+
+_ZWJ = 0x200D
+
+
+def _extends_cluster(cp):
+    """True for marks that belong to the preceding character."""
+    return (
+        cp in (0xFE0F, 0xFE0E, 0x20E3)
+        or 0x1F3FB <= cp <= 0x1F3FF        # skin tone modifiers
+        or 0x0300 <= cp <= 0x036F          # combining diacritics
+        or 0x1AB0 <= cp <= 0x1AFF
+        or 0x1DC0 <= cp <= 0x1DFF
+        or 0x20D0 <= cp <= 0x20FF
+        or 0xFE20 <= cp <= 0xFE2F
+    )
+
+
+def grapheme_clusters(text):
+    """Split *text* into (start, end) ranges, one per visible symbol.
+
+    Enough of UAX #29 for names: everything else falls back to one character
+    per cluster, which is what a plain text field does anyway.
+    """
+    clusters = []
+    index, length = 0, len(text)
+    while index < length:
+        start = index
+        cp = ord(text[index])
+        index += 1
+        if (0x1F1E6 <= cp <= 0x1F1FF and index < length
+                and 0x1F1E6 <= ord(text[index]) <= 0x1F1FF):
+            index += 1  # a flag is a pair of regional indicators
+        while index < length:
+            nxt = ord(text[index])
+            if nxt == _ZWJ:
+                index += 1
+                if index < length:
+                    index += 1  # the symbol joined to the previous one
+            elif _extends_cluster(nxt):
+                index += 1
+            else:
+                break
+        clusters.append((start, index))
+    return clusters
+
+
+def _utf16_len(char):
+    return 2 if ord(char) > 0xFFFF else 1
+
+
+def _cluster_at(text, pos):
+    """Return the UTF-16 (start, end) of the cluster touching *pos*.
+
+    ``QLineEdit`` positions are UTF-16 code units, so the code-point clusters
+    are converted before comparing.
+    """
+    offset = 0
+    for start, end in grapheme_clusters(text):
+        width = sum(_utf16_len(ch) for ch in text[start:end])
+        if offset <= pos < offset + width:
+            return offset, offset + width
+        offset += width
+    return None
 
 
 class ProfileView(QWidget):
@@ -56,7 +119,16 @@ class ProfileView(QWidget):
         outer.setContentsMargins(18, 16, 18, 16)
         outer.setSpacing(10)
 
-        outer.addWidget(make_heading("PROFILE NAME"))
+        head_row = QHBoxLayout()
+        head_row.setContentsMargins(0, 0, 0, 0)
+        head_row.addWidget(make_heading("PROFILE NAME"))
+        head_row.addStretch(1)
+        self.counter = QLabel("0/16")
+        self.counter.setObjectName("nameCounter")
+        self.counter.setToolTip(
+            "Characters used of the 16 the console stores. Emoji count as one.")
+        head_row.addWidget(self.counter, 0, Qt.AlignRight)
+        outer.addLayout(head_row)
 
         self.name_edit = QLineEdit()
         # QLineEdit counts UTF-16 code units, while the console counts
@@ -66,6 +138,7 @@ class ProfileView(QWidget):
         self.name_edit.setMaxLength(32)
         self.name_edit.setPlaceholderText("Type a name, or use Symbols\u2026")
         self.name_edit.textChanged.connect(self._on_name_changed)
+        self.name_edit.installEventFilter(self)
         outer.addWidget(self.name_edit)
 
         btn_row = QHBoxLayout()
@@ -102,6 +175,7 @@ class ProfileView(QWidget):
 
         self.status = make_faint("Pick a user from the list.", wrap=True)
         outer.addWidget(self.status)
+        self._update_counter()
 
     # -- state -------------------------------------------------------------
 
@@ -144,6 +218,7 @@ class ProfileView(QWidget):
         self._original = payload["name"]
         self._has_online = bool(payload.get("has_online"))
         self.name_edit.setText(payload["name"])
+        self._update_counter()
         self.version_lbl.setText(
             f"Cache version: {payload.get('version') or '\u2014'}")
         if self._has_online:
@@ -162,14 +237,58 @@ class ProfileView(QWidget):
         The limit counts characters, not UTF-16 units, so a name of 16 emoji is
         valid even though the widget holds 32 code units.
         """
-        if len(text) <= 16:
-            return
-        self.name_edit.blockSignals(True)
-        cursor = self.name_edit.cursorPosition()
-        self.name_edit.setText(text[:16])
-        self.name_edit.setCursorPosition(min(cursor, 16))
-        self.name_edit.blockSignals(False)
-        self.status.setText("Name limit is 16 characters.")
+        if len(text) > 16:
+            self.name_edit.blockSignals(True)
+            cursor = self.name_edit.cursorPosition()
+            self.name_edit.setText(text[:16])
+            self.name_edit.setCursorPosition(min(cursor, 16))
+            self.name_edit.blockSignals(False)
+            self.status.setText("Name limit is 16 characters.")
+            text = self.name_edit.text()
+        self._update_counter(text)
+
+    def _update_counter(self, text=None):
+        if text is None:
+            text = self.name_edit.text()
+        used = len(text)
+        self.counter.setText(f"{used}/16")
+        full = used >= 16
+        if self.counter.property("full") != full:
+            self.counter.setProperty("full", full)
+            self.counter.style().unpolish(self.counter)
+            self.counter.style().polish(self.counter)
+
+    def eventFilter(self, obj, event):
+        """Delete a whole emoji with Backspace/Delete.
+
+        An emoji can be several characters (a skin tone, a joined family, a
+        flag), and the console treats it as one symbol. Deleting it character
+        by character leaves stray halves behind, so the default handling is
+        replaced with grapheme-aware deletion.
+        """
+        if (obj is self.name_edit and event.type() == QEvent.KeyPress
+                and event.key() in (Qt.Key_Backspace, Qt.Key_Delete)):
+            if self.name_edit.hasSelectedText():
+                return False
+            text = self.name_edit.text()
+            pos = self.name_edit.cursorPosition()
+            if event.key() == Qt.Key_Backspace:
+                if pos == 0:
+                    return True
+                span = _cluster_at(text, pos - 1)
+            else:
+                if pos >= len(text.encode("utf-16-le")) // 2:
+                    return True
+                span = _cluster_at(text, pos)
+            if span is None:
+                return False
+            start, end = span
+            if end <= start:
+                return False
+            self.name_edit.setSelection(start, end - start)
+            self.name_edit.del_()
+            return True
+        return super().eventFilter(obj, event)
 
     def open_symbols(self):
         if self._picker is None:
@@ -196,11 +315,18 @@ class ProfileView(QWidget):
     def _insert_symbol(self, char):
         if len(self.name_edit.text()) + len(char) > 16:
             self.status.setText("Name limit is 16 characters.")
+            if self._picker is not None:
+                self._picker.panel.notify(
+                    "The name is full (16/16). Delete a character to make room.")
             return
+        if self._picker is not None:
+            self._picker.panel.clear_notice()
         self.name_edit.insert(char)
+        self._update_counter()
 
     def reset_name(self):
         self.name_edit.setText(self._original)
+        self._update_counter()
         self.status.setText("Reverted to the last loaded name (not applied yet).")
 
     # -- save --------------------------------------------------------------
