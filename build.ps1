@@ -60,7 +60,8 @@ if ($LASTEXITCODE -ne 0) {
 
 $release = Join-Path $PSScriptRoot "release"
 $stage = Join-Path $release "PS4 Profile Studio"
-Remove-Item -Recurse -Force $release -ErrorAction SilentlyContinue
+# Only clear the staging folder: older release artifacts in release\ stay put.
+Remove-Item -Recurse -Force $stage -ErrorAction SilentlyContinue
 New-Item -ItemType Directory -Path $stage -Force | Out-Null
 
 Copy-Item "dist\PS4 Profile Studio\*" $stage -Recurse -Force
