@@ -2,6 +2,45 @@
 
 All notable changes to PS4 Profile Studio are recorded here.
 
+## [1.0.1] - 2026-11-12
+
+### Added
+
+- **Emoji picker.** The **Symbols…** panel now has two tabs: the PS4 symbols
+  and a curated set of **371 emoji** in 8 categories (Smileys & people,
+  Animals & nature, Food & drink, Travel & places, Activities, Objects,
+  Symbols, Flags), each with an **All** group. Emoji are drawn as live text —
+  no bundled artwork — and clicking one inserts a standard Unicode character
+  into the name field.
+- **Size hints for multi-part emoji.** A small number in the corner of a tile
+  shows how many of the 16 name slots that emoji uses: flags and skin tones
+  (👍🏽) take 2, joined families (👨‍👩‍👧) take 5. The tooltip spells it out.
+- **Flags are labelled with their country code** (JP, US, GB) in the picker.
+  Windows' emoji font has no flag artwork, so this is what Windows draws for a
+  flag character anyway; the console shows the real flag.
+
+### Fixed
+
+- **The symbol picker only lists symbols the console can actually draw.**
+  Every character in the set was checked on a real PS4: **149 render** as
+  icons and **126** (all in the `EFxx` private-use range) appear as a `?` box.
+  The dead entries are no longer offered, so picking a symbol can no longer
+  produce a broken name.
+- **The name field stopped at 8 emoji instead of 16.** The text box counted
+  UTF-16 code units while the console counts characters, so emoji were counted
+  twice. The field now accepts a full 16-character name, emoji included.
+- **Emoji the system font cannot draw are no longer listed.** The picker only
+  offers characters your Windows emoji font really renders, so no tile (and no
+  inserted name) shows a `?` box.
+- **SHARE and OPTIONS icons** now show the words the console really draws
+  instead of a volume and a list icon.
+
+### Changed
+
+- Symbol counts in the app description and documentation: 275 → 149.
+- Picker tiles are drawn as rounded cards, with the category switch above the
+  category list.
+
 ## [1.0.0] - 2026-11-10
 
 First public release.

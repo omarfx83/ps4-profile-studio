@@ -3,7 +3,7 @@ PS4 Profile Studio @VERSION@
 
 Builds a PS4 profile avatar set from one image, sends it to the console over
 GoldHEN FTP, and edits a profile's display name with a built-in picker of
-275 PS4 symbols.
+149 PS4 symbols and 371 emoji.
 
 Portable build - no installation and no Python required.
 
@@ -24,7 +24,8 @@ QUICK START
 2. Run the app, enter the console's IP address, click Connect.
 3. Avatar tab > Editor: open a photo, adjust the crop, Apply Crop.
 4. Avatar tab > Send: pick a user, then Send avatar.
-5. Profile tab: change a profile's display name with the symbol picker.
+5. Profile tab: change a profile's display name with the symbol and emoji
+   picker.
 
 REQUIREMENTS
 ------------

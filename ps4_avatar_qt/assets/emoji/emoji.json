@@ -1,0 +1,2599 @@
+[
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "grinning face",
+  "char": "😀",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "smiling face with hearts",
+  "char": "🥰",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face savoring food",
+  "char": "😋",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "smiling face with open hands",
+  "char": "🤗",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "zipper-mouth face",
+  "char": "🤐",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "relieved face",
+  "char": "😌",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face with medical mask",
+  "char": "😷",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "cowboy hat face",
+  "char": "🤠",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "smiling face with sunglasses",
+  "char": "😎",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "confused face",
+  "char": "😕",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face with steam from nose",
+  "char": "😤",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "pile of poo",
+  "char": "💩",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "grinning cat",
+  "char": "😺",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "see-no-evil monkey",
+  "char": "🙈",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "love letter",
+  "char": "💌",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "kiss mark",
+  "char": "💋",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "grinning face with big eyes",
+  "char": "😃",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "smiling face with heart-eyes",
+  "char": "😍",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face with tongue",
+  "char": "😛",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face with hand over mouth",
+  "char": "🤭",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face with raised eyebrow",
+  "char": "🤨",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "pensive face",
+  "char": "😔",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face with thermometer",
+  "char": "🤒",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "partying face",
+  "char": "🥳",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "nerd face",
+  "char": "🤓",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "worried face",
+  "char": "😟",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "enraged face",
+  "char": "😡",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "clown face",
+  "char": "🤡",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "grinning cat with smiling eyes",
+  "char": "😸",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "hear-no-evil monkey",
+  "char": "🙉",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "heart with arrow",
+  "char": "💘",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "hundred points",
+  "char": "💯",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "grinning face with smiling eyes",
+  "char": "😄",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "star-struck",
+  "char": "🤩",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "winking face with tongue",
+  "char": "😜",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "shushing face",
+  "char": "🤫",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "neutral face",
+  "char": "😐",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "sleepy face",
+  "char": "😪",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face with head-bandage",
+  "char": "🤕",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face with monocle",
+  "char": "🧐",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "slightly frowning face",
+  "char": "🙁",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "angry face",
+  "char": "😠",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "ogre",
+  "char": "👹",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "cat with tears of joy",
+  "char": "😹",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "speak-no-evil monkey",
+  "char": "🙊",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "heart with ribbon",
+  "char": "💝",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "anger symbol",
+  "char": "💢",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "beaming face with smiling eyes",
+  "char": "😁",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face blowing a kiss",
+  "char": "😘",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "zany face",
+  "char": "🤪",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "thinking face",
+  "char": "🤔",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "expressionless face",
+  "char": "😑",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "drooling face",
+  "char": "🤤",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "nauseated face",
+  "char": "🤢",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "frowning face",
+  "char": "☹️",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "face with symbols on mouth",
+  "char": "🤬",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "goblin",
+  "char": "👺",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "smiling cat with heart-eyes",
+  "char": "😻",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "waving hand",
+  "char": "👋",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "OK hand",
+  "char": "👌",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "backhand index pointing left",
+  "char": "👈",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "thumbs up",
+  "char": "👍",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "clapping hands",
+  "char": "👏",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "writing hand",
+  "char": "✍️",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "flexed biceps",
+  "char": "💪",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "baby",
+  "char": "👶",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "person frowning",
+  "char": "🙍",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "man health worker",
+  "char": "👨‍⚕️",
+  "slots": 4
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "baby angel",
+  "char": "👼",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "person getting massage",
+  "char": "💆",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "person fencing",
+  "char": "🤺",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "person in lotus position",
+  "char": "🧘",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "people holding hands",
+  "char": "🧑‍🤝‍🧑",
+  "slots": 5
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "speaking head",
+  "char": "🗣️",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "waving hand: light skin tone",
+  "char": "👋🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "OK hand: light skin tone",
+  "char": "👌🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "backhand index pointing left: light skin tone",
+  "char": "👈🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "thumbs up: light skin tone",
+  "char": "👍🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "clapping hands: light skin tone",
+  "char": "👏🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "writing hand: light skin tone",
+  "char": "✍🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "flexed biceps: light skin tone",
+  "char": "💪🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "baby: light skin tone",
+  "char": "👶🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "person frowning: light skin tone",
+  "char": "🙍🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "man health worker: light skin tone",
+  "char": "👨🏻‍⚕️",
+  "slots": 5
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "baby angel: light skin tone",
+  "char": "👼🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "person getting massage: light skin tone",
+  "char": "💆🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "horse racing",
+  "char": "🏇",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "person in lotus position: light skin tone",
+  "char": "🧘🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "people holding hands: light skin tone",
+  "char": "🧑🏻‍🤝‍🧑🏻",
+  "slots": 7
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "bust in silhouette",
+  "char": "👤",
+  "slots": 1
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "waving hand: medium-light skin tone",
+  "char": "👋🏼",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "OK hand: medium-light skin tone",
+  "char": "👌🏼",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "thumbs up: medium skin tone",
+  "char": "👍🏽",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "clapping hands: medium-dark skin tone",
+  "char": "👏🏾",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "raising hands: light skin tone",
+  "char": "🙌🏻",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "folded hands: medium-light skin tone",
+  "char": "🙏🏼",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "flexed biceps: medium skin tone",
+  "char": "💪🏽",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "handshake: dark skin tone",
+  "char": "🤝🏿",
+  "slots": 2
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "family: man, woman, girl",
+  "char": "👨‍👩‍👧",
+  "slots": 5
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "woman technologist",
+  "char": "👩‍💻",
+  "slots": 3
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "man cook",
+  "char": "👨‍🍳",
+  "slots": 3
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "woman singer",
+  "char": "👩‍🎤",
+  "slots": 3
+ },
+ {
+  "section": "smileys",
+  "section_label": "Smileys & people",
+  "label": "family: man, girl",
+  "char": "👨‍👧",
+  "slots": 3
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "monkey face",
+  "char": "🐵",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "turkey",
+  "char": "🦃",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "frog",
+  "char": "🐸",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "crocodile",
+  "char": "🐊",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "spouting whale",
+  "char": "🐳",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "snail",
+  "char": "🐌",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "bouquet",
+  "char": "💐",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "seedling",
+  "char": "🌱",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "monkey",
+  "char": "🐒",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "chicken",
+  "char": "🐔",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "turtle",
+  "char": "🐢",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "whale",
+  "char": "🐋",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "butterfly",
+  "char": "🦋",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "cherry blossom",
+  "char": "🌸",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "evergreen tree",
+  "char": "🌲",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "gorilla",
+  "char": "🦍",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "rooster",
+  "char": "🐓",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "lizard",
+  "char": "🦎",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "dolphin",
+  "char": "🐬",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "bug",
+  "char": "🐛",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "white flower",
+  "char": "💮",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "deciduous tree",
+  "char": "🌳",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "orangutan",
+  "char": "🦧",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "hatching chick",
+  "char": "🐣",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "snake",
+  "char": "🐍",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "fish",
+  "char": "🐟",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "ant",
+  "char": "🐜",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "rosette",
+  "char": "🏵️",
+  "slots": 2
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "palm tree",
+  "char": "🌴",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "dog face",
+  "char": "🐶",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "baby chick",
+  "char": "🐤",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "dragon face",
+  "char": "🐲",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "tropical fish",
+  "char": "🐠",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "honeybee",
+  "char": "🐝",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "rose",
+  "char": "🌹",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "cactus",
+  "char": "🌵",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "dog",
+  "char": "🐕",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "front-facing baby chick",
+  "char": "🐥",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "dragon",
+  "char": "🐉",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "blowfish",
+  "char": "🐡",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "lady beetle",
+  "char": "🐞",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "wilted flower",
+  "char": "🥀",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "sheaf of rice",
+  "char": "🌾",
+  "slots": 1
+ },
+ {
+  "section": "animals",
+  "section_label": "Animals & nature",
+  "label": "guide dog",
+  "char": "🦮",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "grapes",
+  "char": "🍇",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "avocado",
+  "char": "🥑",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "bread",
+  "char": "🍞",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "bento box",
+  "char": "🍱",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "soft ice cream",
+  "char": "🍦",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "baby bottle",
+  "char": "🍼",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "chopsticks",
+  "char": "🥢",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "melon",
+  "char": "🍈",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "eggplant",
+  "char": "🍆",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "croissant",
+  "char": "🥐",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "rice cracker",
+  "char": "🍘",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "shaved ice",
+  "char": "🍧",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "glass of milk",
+  "char": "🥛",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "fork and knife with plate",
+  "char": "🍽️",
+  "slots": 2
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "watermelon",
+  "char": "🍉",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "potato",
+  "char": "🥔",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "baguette bread",
+  "char": "🥖",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "rice ball",
+  "char": "🍙",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "ice cream",
+  "char": "🍨",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "hot beverage",
+  "char": "☕",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "fork and knife",
+  "char": "🍴",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "tangerine",
+  "char": "🍊",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "carrot",
+  "char": "🥕",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "pretzel",
+  "char": "🥨",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "cooked rice",
+  "char": "🍚",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "doughnut",
+  "char": "🍩",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "teacup without handle",
+  "char": "🍵",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "spoon",
+  "char": "🥄",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "lemon",
+  "char": "🍋",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "ear of corn",
+  "char": "🌽",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "bagel",
+  "char": "🥯",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "curry rice",
+  "char": "🍛",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "cookie",
+  "char": "🍪",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "sake",
+  "char": "🍶",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "kitchen knife",
+  "char": "🔪",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "banana",
+  "char": "🍌",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "hot pepper",
+  "char": "🌶️",
+  "slots": 2
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "pancakes",
+  "char": "🥞",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "steaming bowl",
+  "char": "🍜",
+  "slots": 1
+ },
+ {
+  "section": "food",
+  "section_label": "Food & drink",
+  "label": "birthday cake",
+  "char": "🎂",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "globe showing Europe-Africa",
+  "char": "🌍",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "snow-capped mountain",
+  "char": "🏔️",
+  "slots": 2
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "stadium",
+  "char": "🏟️",
+  "slots": 2
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "church",
+  "char": "⛪",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "fountain",
+  "char": "⛲",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "locomotive",
+  "char": "🚂",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "anchor",
+  "char": "⚓",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "airplane",
+  "char": "✈️",
+  "slots": 2
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "bellhop bell",
+  "char": "🛎️",
+  "slots": 2
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "hourglass done",
+  "char": "⌛",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "new moon",
+  "char": "🌑",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "globe showing Americas",
+  "char": "🌎",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "mountain",
+  "char": "⛰️",
+  "slots": 2
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "classical building",
+  "char": "🏛️",
+  "slots": 2
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "mosque",
+  "char": "🕌",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "tent",
+  "char": "⛺",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "railway car",
+  "char": "🚃",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "sailboat",
+  "char": "⛵",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "small airplane",
+  "char": "🛩️",
+  "slots": 2
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "luggage",
+  "char": "🧳",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "hourglass not done",
+  "char": "⏳",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "waxing crescent moon",
+  "char": "🌒",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "globe showing Asia-Australia",
+  "char": "🌏",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "volcano",
+  "char": "🌋",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "building construction",
+  "char": "🏗️",
+  "slots": 2
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "hindu temple",
+  "char": "🛕",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "foggy",
+  "char": "🌁",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "high-speed train",
+  "char": "🚄",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "canoe",
+  "char": "🛶",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "airplane departure",
+  "char": "🛫",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "watch",
+  "char": "⌚",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "first quarter moon",
+  "char": "🌓",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "globe with meridians",
+  "char": "🌐",
+  "slots": 1
+ },
+ {
+  "section": "travel",
+  "section_label": "Travel & places",
+  "label": "mount fuji",
+  "char": "🗻",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "jack-o-lantern",
+  "char": "🎃",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "military medal",
+  "char": "🎖️",
+  "slots": 2
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "soccer ball",
+  "char": "⚽",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "bullseye",
+  "char": "🎯",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "performing arts",
+  "char": "🎭",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "Christmas tree",
+  "char": "🎄",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "trophy",
+  "char": "🏆",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "baseball",
+  "char": "⚾",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "yo-yo",
+  "char": "🪀",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "framed picture",
+  "char": "🖼️",
+  "slots": 2
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "fireworks",
+  "char": "🎆",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "sports medal",
+  "char": "🏅",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "softball",
+  "char": "🥎",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "kite",
+  "char": "🪁",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "artist palette",
+  "char": "🎨",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "sparkler",
+  "char": "🎇",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "1st place medal",
+  "char": "🥇",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "basketball",
+  "char": "🏀",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "water pistol",
+  "char": "🔫",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "thread",
+  "char": "🧵",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "firecracker",
+  "char": "🧨",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "2nd place medal",
+  "char": "🥈",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "volleyball",
+  "char": "🏐",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "pool 8 ball",
+  "char": "🎱",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "yarn",
+  "char": "🧶",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "sparkles",
+  "char": "✨",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "3rd place medal",
+  "char": "🥉",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "american football",
+  "char": "🏈",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "crystal ball",
+  "char": "🔮",
+  "slots": 1
+ },
+ {
+  "section": "activities",
+  "section_label": "Activities",
+  "label": "balloon",
+  "char": "🎈",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "glasses",
+  "char": "👓",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "muted speaker",
+  "char": "🔇",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "musical score",
+  "char": "🎼",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "saxophone",
+  "char": "🎷",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "mobile phone",
+  "char": "📱",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "battery",
+  "char": "🔋",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "movie camera",
+  "char": "🎥",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "notebook with decorative cover",
+  "char": "📔",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "money bag",
+  "char": "💰",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "envelope",
+  "char": "✉️",
+  "slots": 2
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "pencil",
+  "char": "✏️",
+  "slots": 2
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "briefcase",
+  "char": "💼",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "locked",
+  "char": "🔒",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "hammer",
+  "char": "🔨",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "alembic",
+  "char": "⚗️",
+  "slots": 2
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "syringe",
+  "char": "💉",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "door",
+  "char": "🚪",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "cigarette",
+  "char": "🚬",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "sunglasses",
+  "char": "🕶️",
+  "slots": 2
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "speaker low volume",
+  "char": "🔈",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "musical note",
+  "char": "🎵",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "trumpet",
+  "char": "🎺",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "mobile phone with arrow",
+  "char": "📲",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "electric plug",
+  "char": "🔌",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "film frames",
+  "char": "🎞️",
+  "slots": 2
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "closed book",
+  "char": "📕",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "yen banknote",
+  "char": "💴",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "e-mail",
+  "char": "📧",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "black nib",
+  "char": "✒️",
+  "slots": 2
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "file folder",
+  "char": "📁",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "unlocked",
+  "char": "🔓",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "axe",
+  "char": "🪓",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "test tube",
+  "char": "🧪",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "drop of blood",
+  "char": "🩸",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "bed",
+  "char": "🛏️",
+  "slots": 2
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "coffin",
+  "char": "⚰️",
+  "slots": 2
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "goggles",
+  "char": "🥽",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "speaker medium volume",
+  "char": "🔉",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "musical notes",
+  "char": "🎶",
+  "slots": 1
+ },
+ {
+  "section": "objects",
+  "section_label": "Objects",
+  "label": "guitar",
+  "char": "🎸",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "ATM sign",
+  "char": "🏧",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "warning",
+  "char": "⚠️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "up arrow",
+  "char": "⬆️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "place of worship",
+  "char": "🛐",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "Aries",
+  "char": "♈",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "shuffle tracks button",
+  "char": "🔀",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "female sign",
+  "char": "♀️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "multiply",
+  "char": "✖️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "double exclamation mark",
+  "char": "‼️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "currency exchange",
+  "char": "💱",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "medical symbol",
+  "char": "⚕️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "keycap: #",
+  "char": "#️⃣",
+  "slots": 3
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "input latin uppercase",
+  "char": "🔠",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "red circle",
+  "char": "🔴",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "litter in bin sign",
+  "char": "🚮",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "children crossing",
+  "char": "🚸",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "up-right arrow",
+  "char": "↗️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "atom symbol",
+  "char": "⚛️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "Taurus",
+  "char": "♉",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "repeat button",
+  "char": "🔁",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "male sign",
+  "char": "♂️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "plus",
+  "char": "➕",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "exclamation question mark",
+  "char": "⁉️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "heavy dollar sign",
+  "char": "💲",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "recycling symbol",
+  "char": "♻️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "keycap: *",
+  "char": "*️⃣",
+  "slots": 3
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "input latin lowercase",
+  "char": "🔡",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "orange circle",
+  "char": "🟠",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "potable water",
+  "char": "🚰",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "no entry",
+  "char": "⛔",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "right arrow",
+  "char": "➡️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "om",
+  "char": "🕉️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "Gemini",
+  "char": "♊",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "repeat single button",
+  "char": "🔂",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "transgender symbol",
+  "char": "⚧️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "minus",
+  "char": "➖",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "red question mark",
+  "char": "❓",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "fleur-de-lis",
+  "char": "⚜️",
+  "slots": 2
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "keycap: 0",
+  "char": "0️⃣",
+  "slots": 3
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "input numbers",
+  "char": "🔢",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "yellow circle",
+  "char": "🟡",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "wheelchair symbol",
+  "char": "♿",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "prohibited",
+  "char": "🚫",
+  "slots": 1
+ },
+ {
+  "section": "symbols",
+  "section_label": "Symbols",
+  "label": "down-right arrow",
+  "char": "↘️",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Japan",
+  "char": "🇯🇵",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: United States",
+  "char": "🇺🇸",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: United Kingdom",
+  "char": "🇬🇧",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Canada",
+  "char": "🇨🇦",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: France",
+  "char": "🇫🇷",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Germany",
+  "char": "🇩🇪",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Italy",
+  "char": "🇮🇹",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Spain",
+  "char": "🇪🇸",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Portugal",
+  "char": "🇵🇹",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Netherlands",
+  "char": "🇳🇱",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Belgium",
+  "char": "🇧🇪",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Switzerland",
+  "char": "🇨🇭",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Austria",
+  "char": "🇦🇹",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Sweden",
+  "char": "🇸🇪",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Norway",
+  "char": "🇳🇴",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Finland",
+  "char": "🇫🇮",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Denmark",
+  "char": "🇩🇰",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Poland",
+  "char": "🇵🇱",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Ireland",
+  "char": "🇮🇪",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Greece",
+  "char": "🇬🇷",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Russia",
+  "char": "🇷🇺",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Ukraine",
+  "char": "🇺🇦",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Turkey",
+  "char": "🇹🇷",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Brazil",
+  "char": "🇧🇷",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Mexico",
+  "char": "🇲🇽",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Argentina",
+  "char": "🇦🇷",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: India",
+  "char": "🇮🇳",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: China",
+  "char": "🇨🇳",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: South Korea",
+  "char": "🇰🇷",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Australia",
+  "char": "🇦🇺",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Saudi Arabia",
+  "char": "🇸🇦",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: United Arab Emirates",
+  "char": "🇦🇪",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Egypt",
+  "char": "🇪🇬",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Morocco",
+  "char": "🇲🇦",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: Nigeria",
+  "char": "🇳🇬",
+  "slots": 2
+ },
+ {
+  "section": "flags",
+  "section_label": "Flags",
+  "label": "flag: South Africa",
+  "char": "🇿🇦",
+  "slots": 2
+ }
+]

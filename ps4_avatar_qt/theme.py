@@ -110,6 +110,23 @@ def build_qss():
     QPushButton#seg:hover {{ color: {FG}; }}
     QPushButton#seg:checked {{ background: {ACCENT}; color: {ACCENT_TEXT}; }}
 
+    /* --- picker tiles -------------------------------------------------- */
+    QWidget#pickerPopup, QWidget#pickerBody {{ background: {PANEL}; }}
+    QToolButton#symbolCell, QToolButton#emojiCell {{
+        background: {CARD};
+        border: none;
+        border-radius: 8px;
+    }}
+    QToolButton#symbolCell:hover, QToolButton#emojiCell:hover {{
+        background: {CARD_HOVER};
+    }}
+    QToolButton#emojiCell {{
+        font-family: "Segoe UI Emoji", "Apple Color Emoji",
+                     "Noto Color Emoji", "Segoe UI Symbol", sans-serif;
+        font-size: 17pt;
+    }}
+    QToolButton#emojiCell:disabled {{ color: {FAINT}; }}
+
     /* --- inputs -------------------------------------------------------- */
     QLineEdit {{
         background: {INPUT_BG};

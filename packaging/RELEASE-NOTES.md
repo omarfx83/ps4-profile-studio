@@ -2,7 +2,7 @@
 
 A portable Windows app for PS4 profiles: turn one image into the complete avatar
 file set, send it to the console over GoldHEN FTP, and edit a profile's display
-name with a picker of 275 PS4 symbols.
+name with a picker of 149 PS4 symbols and 371 emoji.
 
 ## Download
 
@@ -33,7 +33,9 @@ your PC" because the build is not code-signed — click **More info → Run anyw
   `backups/<timestamp>/<0x…>/` first; if the backup fails, that user is skipped.
 - **Saved consoles** — remembers up to 10 consoles with friendly names you can
   rename, most recent first.
-- **Profile names** — edit the display name with a picker of 275 symbols.
+- **Profile names** — edit the display name with a picker of 149 symbols and 371
+  emoji, all verified to render on the console. Multi-part emoji show how many
+  of the 16 name slots they use.
 - **Portable** — settings and backups live next to the executable, with an
   `%APPDATA%\PS4ProfileStudio` fallback for read-only folders. Delete the folder
   to uninstall.

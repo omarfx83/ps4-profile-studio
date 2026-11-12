@@ -7,7 +7,8 @@
 
 A small Windows desktop app that turns **one image (PNG or JPG)** into a complete
 PS4 profile avatar set, **sends it straight to the console over GoldHEN FTP**, and
-**edits a profile's display name with a built-in picker of 275 PS4 symbols**.
+**edits a profile's display name with a built-in picker of 149 PS4 symbols and
+371 emoji**.
 
 Output files:
 
@@ -23,7 +24,8 @@ What it does:
 
 - crops, masks and exports the avatar set above from a single photo
 - uploads the set to one user or to every user over GoldHEN's FTP
-- edits a profile's display name with a built-in picker of 275 PS4 symbols
+- edits a profile's display name with a built-in picker of 149 PS4 symbols and
+  371 emoji
 - remembers up to 10 consoles, each with an optional friendly name
 
 > **Custom profile names need activation.** The console shows a user's custom
@@ -57,11 +59,12 @@ Everything lives in the extracted folder, so deleting it uninstalls the app.
 |---|---|
 | ![Send avatar panel](screenshots/send.png) | |
 
-**Profile tab — display name and symbol picker**
+**Profile tab — display name, PS4 symbols and emoji**
 
 | | |
 |---|---|
 | ![Profile name panel](screenshots/profile.png) | ![Symbol picker](screenshots/symbols.png) |
+| ![Emoji picker](screenshots/emoji.png) | |
 
 The sections below cover running from source and how the app works.
 
@@ -226,7 +229,7 @@ both live next to the executable; when running from source they live in the
 project folder. If that folder is not writable, they fall back to
 `%APPDATA%\PS4ProfileStudio\`. No credentials are stored.
 
-## Profile tab (user name + symbols)
+## Profile tab (user name, symbols and emoji)
 
 The **Profile** tab edits a user's **display name** (`online.json` →
 `firstName`). This is the profile name, not your PSN online ID.
@@ -234,18 +237,24 @@ The **Profile** tab edits a user's **display name** (`online.json` →
 1. Connect in the **top bar**, then open **Profile**.
 2. Pick a user from the list (single selection). The current name loads from
    `online.json` (`firstName`).
-3. Edit the name. **Symbols…** opens a grid of **275 PS4 symbols** (7
-   categories, plus an **All** group); clicking one inserts its character
-   straight into the name field — no copy/paste.
+3. Edit the name. **Symbols…** opens the picker, with two tabs:
+   - **PS4 symbols** — **149 symbols** in 7 categories, plus an **All** group.
+   - **Emoji** — **371 emoji** in 8 categories (Smileys & people, Animals &
+     nature, Food & drink, Travel & places, Activities, Objects, Symbols,
+     Flags), plus an **All emoji** group.
+
+   Clicking any tile inserts its character straight into the name field — no
+   copy/paste.
 4. **Apply name** asks for **confirmation**. The **Back up before saving**
    toggle (on by default) copies the whole profile folder first, then the app
    uploads **only** `online.json` and **reads it back** to confirm the console
    stored it. If the user has **no `online.json` yet** (a fresh/offline profile
    that was never activated), the app creates a minimal, console-shaped one
    with the entered name instead of failing.
-5. The name is capped at **16 characters**. After a successful apply the app
-   re-reads the console; if the name doesn't refresh on the PS4 itself, restart
-   it (or sign out and back in).
+5. The name is capped at **16 characters**. The limit counts characters, not
+   bytes, so an emoji such as 😀 uses one slot even though it is stored as four
+   bytes. After a successful apply the app re-reads the console; if the name
+   doesn't refresh on the PS4 itself, restart it (or sign out and back in).
 
 **Reset** reverts the field to the last loaded name (not applied yet).
 
@@ -253,7 +262,24 @@ Only the name value is changed — every other field in `online.json`
 (`onlineId`, `avatarUrl`, `lastName`, `trophySummary`) is preserved.
 
 > The symbols are **private-use characters**: the app shows them as plain
-> blocks and the PS4 renders them as icons.
+> blocks and the PS4 renders them as icons. Only characters the console
+> actually draws are listed — anything that would appear as a `?` box is
+> filtered out, so every symbol in the picker is safe to use.
+
+> Emoji are drawn as **live text**: the picker uses the system's own emoji font
+> and inserts a standard Unicode character, so nothing is bundled and nothing
+> depends on an image file. Two kinds of tile look different from the console
+> for technical reasons:
+>
+> - **Flags** show a two-letter code (JP, US, GB). Windows has no flag artwork
+>   in its emoji font, so a flag would print as those letters anyway; the
+>   console draws the real flag.
+> - **Multi-part emoji** (flags, skin tones, joined families) carry a small
+>   number in the corner: how many of the 16 name slots they use. 👍🏽 uses 2
+>   and 👨‍👩‍👧 uses 5.
+>
+> The list only includes emoji that your Windows emoji font can draw, so no
+> tile shows a `?` box.
 
 ### Custom names need an activated profile
 
@@ -333,15 +359,16 @@ ps4_avatar_qt/              Qt application (PySide6)
   session.py                shared PS4 FTP connection
   theme.py                  colours, fonts, spacing, QSS
   symbols.py                the PS4 symbol set loader
+  emoji.py                  the curated emoji set loader
   resources.py              bundled-asset paths (works in a packaged build)
   ui/connection_bar.py      top-bar connection controls
   ui/user_list.py           shared single-select user list / cards
   ui/editor_view.py         Avatar tab: crop editor
   ui/send_view.py           Avatar tab: send panel
   ui/profile_view.py        Profile tab: user list + name panel
-  ui/symbols_panel.py       symbol picker (icons + characters)
+  ui/symbols_panel.py       symbol + emoji picker (icons, glyphs, flag codes)
   ui/widgets.py             toggles, dropdown/menu cards, status dot, tabs
-  assets/                   bundled Inter font + symbol icons
+  assets/                   bundled Inter font, symbol icons, emoji data
 ```
 
 The UI is built with Qt (PySide6): real anti-aliased widgets, a dark QSS

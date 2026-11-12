@@ -59,8 +59,13 @@ class ProfileView(QWidget):
         outer.addWidget(make_heading("PROFILE NAME"))
 
         self.name_edit = QLineEdit()
-        self.name_edit.setMaxLength(16)
+        # QLineEdit counts UTF-16 code units, while the console counts
+        # characters: an emoji such as U+1F600 is one character but two units.
+        # Allow the widest a 16-character name can be, then enforce the real
+        # limit per character in _on_name_changed().
+        self.name_edit.setMaxLength(32)
         self.name_edit.setPlaceholderText("Type a name, or use Symbols\u2026")
+        self.name_edit.textChanged.connect(self._on_name_changed)
         outer.addWidget(self.name_edit)
 
         btn_row = QHBoxLayout()
@@ -150,6 +155,21 @@ class ProfileView(QWidget):
         self._update_actions()
 
     # -- symbols -----------------------------------------------------------
+
+    def _on_name_changed(self, text):
+        """Keep the field at the console's 16-character limit.
+
+        The limit counts characters, not UTF-16 units, so a name of 16 emoji is
+        valid even though the widget holds 32 code units.
+        """
+        if len(text) <= 16:
+            return
+        self.name_edit.blockSignals(True)
+        cursor = self.name_edit.cursorPosition()
+        self.name_edit.setText(text[:16])
+        self.name_edit.setCursorPosition(min(cursor, 16))
+        self.name_edit.blockSignals(False)
+        self.status.setText("Name limit is 16 characters.")
 
     def open_symbols(self):
         if self._picker is None:

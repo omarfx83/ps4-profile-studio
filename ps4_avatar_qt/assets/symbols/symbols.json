@@ -7,7 +7,8 @@
   "codepoints": [
    "0xefe3"
   ],
-  "icon": "social/1.png"
+  "icon": "social/1.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -47,7 +48,8 @@
   "codepoints": [
    "0xefe6"
   ],
-  "icon": "social/5.png"
+  "icon": "social/5.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -57,7 +59,8 @@
   "codepoints": [
    "0xefe4"
   ],
-  "icon": "social/6.png"
+  "icon": "social/6.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -67,7 +70,8 @@
   "codepoints": [
    "0xefe7"
   ],
-  "icon": "social/7.png"
+  "icon": "social/7.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -77,7 +81,8 @@
   "codepoints": [
    "0xefbf"
   ],
-  "icon": "social/8.png"
+  "icon": "social/8.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -87,7 +92,8 @@
   "codepoints": [
    "0xefe2"
   ],
-  "icon": "social/9.png"
+  "icon": "social/9.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -97,7 +103,8 @@
   "codepoints": [
    "0xef6e"
   ],
-  "icon": "social/10.png"
+  "icon": "social/10.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -107,7 +114,8 @@
   "codepoints": [
    "0xefc3"
   ],
-  "icon": "social/11.png"
+  "icon": "social/11.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -117,7 +125,8 @@
   "codepoints": [
    "0xefc9"
   ],
-  "icon": "social/12.png"
+  "icon": "social/12.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -127,7 +136,8 @@
   "codepoints": [
    "0xefc8"
   ],
-  "icon": "social/13.png"
+  "icon": "social/13.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -137,7 +147,8 @@
   "codepoints": [
    "0xefca"
   ],
-  "icon": "social/14.png"
+  "icon": "social/14.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -147,7 +158,8 @@
   "codepoints": [
    "0xefc6"
   ],
-  "icon": "social/15.png"
+  "icon": "social/15.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -157,7 +169,8 @@
   "codepoints": [
    "0xefc4"
   ],
-  "icon": "social/16.png"
+  "icon": "social/16.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -167,7 +180,8 @@
   "codepoints": [
    "0xefc7"
   ],
-  "icon": "social/17.png"
+  "icon": "social/17.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -187,7 +201,8 @@
   "codepoints": [
    "0xefc2"
   ],
-  "icon": "social/19.png"
+  "icon": "social/19.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -207,7 +222,8 @@
   "codepoints": [
    "0xefc1"
   ],
-  "icon": "social/21.png"
+  "icon": "social/21.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -217,7 +233,8 @@
   "codepoints": [
    "0xefe1"
   ],
-  "icon": "social/22.png"
+  "icon": "social/22.png",
+  "supported": false
  },
  {
   "section": "social",
@@ -227,7 +244,8 @@
   "codepoints": [
    "0xef6a"
   ],
-  "icon": "social/23.png"
+  "icon": "social/23.png",
+  "supported": false
  },
  {
   "section": "loghi",
@@ -237,7 +255,8 @@
   "codepoints": [
    "0xef91"
   ],
-  "icon": "loghi/1.png"
+  "icon": "loghi/1.png",
+  "supported": false
  },
  {
   "section": "loghi",
@@ -287,7 +306,8 @@
   "codepoints": [
    "0xef9d"
   ],
-  "icon": "loghi/6.png"
+  "icon": "loghi/6.png",
+  "supported": false
  },
  {
   "section": "loghi",
@@ -347,7 +367,8 @@
   "codepoints": [
    "0xef7f"
   ],
-  "icon": "loghi/12.png"
+  "icon": "loghi/12.png",
+  "supported": false
  },
  {
   "section": "loghi",
@@ -357,7 +378,8 @@
   "codepoints": [
    "0xefde"
   ],
-  "icon": "loghi/13.png"
+  "icon": "loghi/13.png",
+  "supported": false
  },
  {
   "section": "loghi",
@@ -367,7 +389,8 @@
   "codepoints": [
    "0xefdc"
   ],
-  "icon": "loghi/14.png"
+  "icon": "loghi/14.png",
+  "supported": false
  },
  {
   "section": "loghi",
@@ -377,7 +400,8 @@
   "codepoints": [
    "0xefa5"
   ],
-  "icon": "loghi/15.png"
+  "icon": "loghi/15.png",
+  "supported": false
  },
  {
   "section": "loghi",
@@ -397,7 +421,8 @@
   "codepoints": [
    "0xefdd"
   ],
-  "icon": "loghi/17.png"
+  "icon": "loghi/17.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -407,7 +432,8 @@
   "codepoints": [
    "0xef93"
   ],
-  "icon": "psicon/1.png"
+  "icon": "psicon/1.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -417,7 +443,8 @@
   "codepoints": [
    "0xef94"
   ],
-  "icon": "psicon/2.png"
+  "icon": "psicon/2.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -437,7 +464,8 @@
   "codepoints": [
    "0xefa2"
   ],
-  "icon": "psicon/4.png"
+  "icon": "psicon/4.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -447,7 +475,8 @@
   "codepoints": [
    "0xefd1"
   ],
-  "icon": "psicon/5.png"
+  "icon": "psicon/5.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -457,7 +486,8 @@
   "codepoints": [
    "0xefea"
   ],
-  "icon": "psicon/6.png"
+  "icon": "psicon/6.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -467,7 +497,8 @@
   "codepoints": [
    "0xefd2"
   ],
-  "icon": "psicon/7.png"
+  "icon": "psicon/7.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -497,7 +528,8 @@
   "codepoints": [
    "0xef92"
   ],
-  "icon": "psicon/10.png"
+  "icon": "psicon/10.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -527,7 +559,8 @@
   "codepoints": [
    "0xef96"
   ],
-  "icon": "psicon/13.png"
+  "icon": "psicon/13.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -537,7 +570,8 @@
   "codepoints": [
    "0xefcc"
   ],
-  "icon": "psicon/14.png"
+  "icon": "psicon/14.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -547,7 +581,8 @@
   "codepoints": [
    "0xefe9"
   ],
-  "icon": "psicon/15.png"
+  "icon": "psicon/15.png",
+  "supported": false
  },
  {
   "section": "psicon",
@@ -757,7 +792,8 @@
   "codepoints": [
    "0xef7e"
   ],
-  "icon": "controller/19.png"
+  "icon": "controller/19.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -777,7 +813,8 @@
   "codepoints": [
    "0xef95"
   ],
-  "icon": "controller/21.png"
+  "icon": "controller/21.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -787,7 +824,8 @@
   "codepoints": [
    "0xef9c"
   ],
-  "icon": "controller/22.png"
+  "icon": "controller/22.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -797,7 +835,8 @@
   "codepoints": [
    "0xef8f"
   ],
-  "icon": "controller/23.png"
+  "icon": "controller/23.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -807,7 +846,8 @@
   "codepoints": [
    "0xef8e"
   ],
-  "icon": "controller/24.png"
+  "icon": "controller/24.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -817,7 +857,8 @@
   "codepoints": [
    "0xef8c"
   ],
-  "icon": "controller/25.png"
+  "icon": "controller/25.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -827,7 +868,8 @@
   "codepoints": [
    "0xef8d"
   ],
-  "icon": "controller/26.png"
+  "icon": "controller/26.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -837,7 +879,8 @@
   "codepoints": [
    "0xef88"
   ],
-  "icon": "controller/27.png"
+  "icon": "controller/27.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -847,7 +890,8 @@
   "codepoints": [
    "0xef8a"
   ],
-  "icon": "controller/28.png"
+  "icon": "controller/28.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -857,7 +901,8 @@
   "codepoints": [
    "0xef89"
   ],
-  "icon": "controller/29.png"
+  "icon": "controller/29.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -867,7 +912,8 @@
   "codepoints": [
    "0xef8b"
   ],
-  "icon": "controller/30.png"
+  "icon": "controller/30.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -877,7 +923,8 @@
   "codepoints": [
    "0xef87"
   ],
-  "icon": "controller/31.png"
+  "icon": "controller/31.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -887,7 +934,8 @@
   "codepoints": [
    "0xef86"
   ],
-  "icon": "controller/32.png"
+  "icon": "controller/32.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -897,7 +945,8 @@
   "codepoints": [
    "0xef84"
   ],
-  "icon": "controller/33.png"
+  "icon": "controller/33.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -907,7 +956,8 @@
   "codepoints": [
    "0xef85"
   ],
-  "icon": "controller/34.png"
+  "icon": "controller/34.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -917,7 +967,8 @@
   "codepoints": [
    "0xef80"
   ],
-  "icon": "controller/35.png"
+  "icon": "controller/35.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -927,7 +978,8 @@
   "codepoints": [
    "0xef82"
   ],
-  "icon": "controller/36.png"
+  "icon": "controller/36.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -937,7 +989,8 @@
   "codepoints": [
    "0xef83"
   ],
-  "icon": "controller/37.png"
+  "icon": "controller/37.png",
+  "supported": false
  },
  {
   "section": "controller",
@@ -1217,7 +1270,8 @@
   "codepoints": [
    "0xefb1"
   ],
-  "icon": "system/1.png"
+  "icon": "system/1.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1227,7 +1281,8 @@
   "codepoints": [
    "0xefbc"
   ],
-  "icon": "system/2.png"
+  "icon": "system/2.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1237,7 +1292,8 @@
   "codepoints": [
    "0xefb0"
   ],
-  "icon": "system/3.png"
+  "icon": "system/3.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1247,7 +1303,8 @@
   "codepoints": [
    "0xefcb"
   ],
-  "icon": "system/4.png"
+  "icon": "system/4.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1257,7 +1314,8 @@
   "codepoints": [
    "0xefb4"
   ],
-  "icon": "system/5.png"
+  "icon": "system/5.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1267,7 +1325,8 @@
   "codepoints": [
    "0xefaf"
   ],
-  "icon": "system/6.png"
+  "icon": "system/6.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1277,7 +1336,8 @@
   "codepoints": [
    "0xefb7"
   ],
-  "icon": "system/7.png"
+  "icon": "system/7.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1317,7 +1377,8 @@
   "codepoints": [
    "0xef78"
   ],
-  "icon": "system/11.png"
+  "icon": "system/11.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1327,7 +1388,8 @@
   "codepoints": [
    "0xef79"
   ],
-  "icon": "system/12.png"
+  "icon": "system/12.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1337,7 +1399,8 @@
   "codepoints": [
    "0xefd5"
   ],
-  "icon": "system/13.png"
+  "icon": "system/13.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1347,7 +1410,8 @@
   "codepoints": [
    "0xefad"
   ],
-  "icon": "system/14.png"
+  "icon": "system/14.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1357,7 +1421,8 @@
   "codepoints": [
    "0xefd0"
   ],
-  "icon": "system/15.png"
+  "icon": "system/15.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1367,7 +1432,8 @@
   "codepoints": [
    "0xefcf"
   ],
-  "icon": "system/16.png"
+  "icon": "system/16.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1377,7 +1443,8 @@
   "codepoints": [
    "0xefd8"
   ],
-  "icon": "system/17.png"
+  "icon": "system/17.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1387,7 +1454,8 @@
   "codepoints": [
    "0xefd7"
   ],
-  "icon": "system/18.png"
+  "icon": "system/18.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1397,7 +1465,8 @@
   "codepoints": [
    "0xefb5"
   ],
-  "icon": "system/19.png"
+  "icon": "system/19.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1417,7 +1486,8 @@
   "codepoints": [
    "0xefd3"
   ],
-  "icon": "system/21.png"
+  "icon": "system/21.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1447,7 +1517,8 @@
   "codepoints": [
    "0xef72"
   ],
-  "icon": "system/24.png"
+  "icon": "system/24.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1457,7 +1528,8 @@
   "codepoints": [
    "0xef73"
   ],
-  "icon": "system/25.png"
+  "icon": "system/25.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1467,7 +1539,8 @@
   "codepoints": [
    "0xef74"
   ],
-  "icon": "system/26.png"
+  "icon": "system/26.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1477,7 +1550,8 @@
   "codepoints": [
    "0xef75"
   ],
-  "icon": "system/27.png"
+  "icon": "system/27.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1487,7 +1561,8 @@
   "codepoints": [
    "0xef76"
   ],
-  "icon": "system/28.png"
+  "icon": "system/28.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1497,7 +1572,8 @@
   "codepoints": [
    "0xef77"
   ],
-  "icon": "system/29.png"
+  "icon": "system/29.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1507,7 +1583,8 @@
   "codepoints": [
    "0xefb6"
   ],
-  "icon": "system/30.png"
+  "icon": "system/30.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1517,7 +1594,8 @@
   "codepoints": [
    "0xefa7"
   ],
-  "icon": "system/31.png"
+  "icon": "system/31.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1527,7 +1605,8 @@
   "codepoints": [
    "0xefce"
   ],
-  "icon": "system/32.png"
+  "icon": "system/32.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1557,7 +1636,8 @@
   "codepoints": [
    "0xefb9"
   ],
-  "icon": "system/35.png"
+  "icon": "system/35.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1617,7 +1697,8 @@
   "codepoints": [
    "0xefba"
   ],
-  "icon": "system/41.png"
+  "icon": "system/41.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1647,7 +1728,8 @@
   "codepoints": [
    "0xefbb"
   ],
-  "icon": "system/44.png"
+  "icon": "system/44.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1657,7 +1739,8 @@
   "codepoints": [
    "0xef69"
   ],
-  "icon": "system/45.png"
+  "icon": "system/45.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1667,7 +1750,8 @@
   "codepoints": [
    "0xef68"
   ],
-  "icon": "system/46.png"
+  "icon": "system/46.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1677,7 +1761,8 @@
   "codepoints": [
    "0xef6b"
   ],
-  "icon": "system/47.png"
+  "icon": "system/47.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1687,7 +1772,8 @@
   "codepoints": [
    "0xef6c"
   ],
-  "icon": "system/48.png"
+  "icon": "system/48.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1717,7 +1803,8 @@
   "codepoints": [
    "0xef63"
   ],
-  "icon": "system/51.png"
+  "icon": "system/51.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1727,7 +1814,8 @@
   "codepoints": [
    "0xef64"
   ],
-  "icon": "system/52.png"
+  "icon": "system/52.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1737,7 +1825,8 @@
   "codepoints": [
    "0xef65"
   ],
-  "icon": "system/53.png"
+  "icon": "system/53.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1747,7 +1836,8 @@
   "codepoints": [
    "0xef66"
   ],
-  "icon": "system/54.png"
+  "icon": "system/54.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1787,7 +1877,8 @@
   "codepoints": [
    "0xefa4"
   ],
-  "icon": "system/58.png"
+  "icon": "system/58.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -1797,7 +1888,8 @@
   "codepoints": [
    "0xefa3"
   ],
-  "icon": "system/59.png"
+  "icon": "system/59.png",
+  "supported": false
  },
  {
   "section": "system",
@@ -2047,7 +2139,8 @@
   "codepoints": [
    "0xefe8"
   ],
-  "icon": "misc/1.png"
+  "icon": "misc/1.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2117,7 +2210,8 @@
   "codepoints": [
    "0xefb8"
   ],
-  "icon": "misc/8.png"
+  "icon": "misc/8.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2147,7 +2241,8 @@
   "codepoints": [
    "0xefab"
   ],
-  "icon": "misc/11.png"
+  "icon": "misc/11.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2157,7 +2252,8 @@
   "codepoints": [
    "0xefac"
   ],
-  "icon": "misc/12.png"
+  "icon": "misc/12.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2167,7 +2263,8 @@
   "codepoints": [
    "0xefaa"
   ],
-  "icon": "misc/13.png"
+  "icon": "misc/13.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2187,7 +2284,8 @@
   "codepoints": [
    "0xef90"
   ],
-  "icon": "misc/15.png"
+  "icon": "misc/15.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2197,7 +2295,8 @@
   "codepoints": [
    "0xefa9"
   ],
-  "icon": "misc/16.png"
+  "icon": "misc/16.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2207,7 +2306,8 @@
   "codepoints": [
    "0xefa0"
   ],
-  "icon": "misc/17.png"
+  "icon": "misc/17.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2217,7 +2317,8 @@
   "codepoints": [
    "0xefbd"
   ],
-  "icon": "misc/18.png"
+  "icon": "misc/18.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2237,7 +2338,8 @@
   "codepoints": [
    "0xefbe"
   ],
-  "icon": "misc/20.png"
+  "icon": "misc/20.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2247,7 +2349,8 @@
   "codepoints": [
    "0xef7a"
   ],
-  "icon": "misc/21.png"
+  "icon": "misc/21.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2257,7 +2360,8 @@
   "codepoints": [
    "0xef7b"
   ],
-  "icon": "misc/22.png"
+  "icon": "misc/22.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2267,7 +2371,8 @@
   "codepoints": [
    "0xef7c"
   ],
-  "icon": "misc/23.png"
+  "icon": "misc/23.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2277,7 +2382,8 @@
   "codepoints": [
    "0xef7d"
   ],
-  "icon": "misc/24.png"
+  "icon": "misc/24.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2287,7 +2393,8 @@
   "codepoints": [
    "0xef6d"
   ],
-  "icon": "misc/25.png"
+  "icon": "misc/25.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2297,7 +2404,8 @@
   "codepoints": [
    "0xefd6"
   ],
-  "icon": "misc/26.png"
+  "icon": "misc/26.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2347,7 +2455,8 @@
   "codepoints": [
    "0xef62"
   ],
-  "icon": "misc/31.png"
+  "icon": "misc/31.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2357,7 +2466,8 @@
   "codepoints": [
    "0xef99"
   ],
-  "icon": "misc/32.png"
+  "icon": "misc/32.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2367,7 +2477,8 @@
   "codepoints": [
    "0xef98"
   ],
-  "icon": "misc/33.png"
+  "icon": "misc/33.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2377,7 +2488,8 @@
   "codepoints": [
    "0xef9a"
   ],
-  "icon": "misc/34.png"
+  "icon": "misc/34.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2397,7 +2509,8 @@
   "codepoints": [
    "0xefa1"
   ],
-  "icon": "misc/36.png"
+  "icon": "misc/36.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2417,7 +2530,8 @@
   "codepoints": [
    "0xefa6"
   ],
-  "icon": "misc/38.png"
+  "icon": "misc/38.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2447,7 +2561,8 @@
   "codepoints": [
    "0xefd4"
   ],
-  "icon": "misc/41.png"
+  "icon": "misc/41.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2467,7 +2582,8 @@
   "codepoints": [
    "0xefb2"
   ],
-  "icon": "misc/43.png"
+  "icon": "misc/43.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2477,7 +2593,8 @@
   "codepoints": [
    "0xefb3"
   ],
-  "icon": "misc/44.png"
+  "icon": "misc/44.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2527,7 +2644,8 @@
   "codepoints": [
    "0xef6f"
   ],
-  "icon": "misc/49.png"
+  "icon": "misc/49.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2537,7 +2655,8 @@
   "codepoints": [
    "0xefa8"
   ],
-  "icon": "misc/50.png"
+  "icon": "misc/50.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2547,7 +2666,8 @@
   "codepoints": [
    "0xef67"
   ],
-  "icon": "misc/51.png"
+  "icon": "misc/51.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2657,7 +2777,8 @@
   "codepoints": [
    "0xef9e"
   ],
-  "icon": "misc/62.png"
+  "icon": "misc/62.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2677,7 +2798,8 @@
   "codepoints": [
    "0xef9f"
   ],
-  "icon": "misc/64.png"
+  "icon": "misc/64.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2697,7 +2819,8 @@
   "codepoints": [
    "0xef97"
   ],
-  "icon": "misc/66.png"
+  "icon": "misc/66.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2717,7 +2840,8 @@
   "codepoints": [
    "0xefe5"
   ],
-  "icon": "misc/68.png"
+  "icon": "misc/68.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2727,7 +2851,8 @@
   "codepoints": [
    "0xef9b"
   ],
-  "icon": "misc/69.png"
+  "icon": "misc/69.png",
+  "supported": false
  },
  {
   "section": "misc",
@@ -2747,6 +2872,7 @@
   "codepoints": [
    "0xefcd"
   ],
-  "icon": "misc/71.png"
+  "icon": "misc/71.png",
+  "supported": false
  }
 ]

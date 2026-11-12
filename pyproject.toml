@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ps4-profile-studio"
-version = "1.0.0"
-description = "Builds PS4 profile avatar sets from one image, uploads them over GoldHEN FTP, and edits profile names with a symbol picker"
+version = "1.0.1"
+description = "Builds PS4 profile avatar sets from one image, uploads them over GoldHEN FTP, and edits profile names with a picker of 149 PS4 symbols and 371 emoji"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["Pillow>=10", "PySide6-Essentials>=6.6"]
@@ -39,4 +39,5 @@ include = ["ps4_avatar*"]
     "assets/fonts/*.txt",
     "assets/symbols/*.json",
     "assets/symbols/*/*.png",
+    "assets/emoji/*.json",
 ]
