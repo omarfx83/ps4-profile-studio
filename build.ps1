@@ -77,6 +77,7 @@ $readme = (Get-Content "packaging\README.txt" -Raw).Replace("@VERSION@", $Versio
 
 $zipName = "PS4-Profile-Studio-$Version-win64.zip"
 $zipPath = Join-Path $release $zipName
+Remove-Item -Force $zipPath, "$zipPath.sha256" -ErrorAction SilentlyContinue
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 [System.IO.Compression.ZipFile]::CreateFromDirectory(
     $stage, $zipPath,

@@ -35,7 +35,8 @@ your PC" because the build is not code-signed — click **More info → Run anyw
   rename, most recent first.
 - **Profile names** — edit the display name with a picker of 149 symbols and 371
   emoji, all verified to render on the console. Multi-part emoji show how many
-  of the 16 name slots they use.
+  of the 16 name slots they use, a swatch row picks the skin tone, and a
+  counter shows how many of the 16 characters are left.
 - **Portable** — settings and backups live next to the executable, with an
   `%APPDATA%\PS4ProfileStudio` fallback for read-only folders. Delete the folder
   to uninstall.
