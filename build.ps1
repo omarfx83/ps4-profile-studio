@@ -90,8 +90,19 @@ Set-Content -Path "$zipPath.sha256" -Value "$hash  $zipName" -Encoding ASCII
 $mb = [math]::Round((Get-Item $zipPath).Length / 1MB, 1)
 $shaBytes = (Get-Item "$zipPath.sha256").Length
 
+# Pull the changelog entry for this version, so the release body always matches
+# CHANGELOG.md instead of a hand-copied list that goes stale.
+$changelog = Get-Content "CHANGELOG.md" -Raw
+$entryPattern = "(?ms)^## \[$([regex]::Escape($Version))\][^\n]*\n(.*?)(?=^## \[|\z)"
+if ($changelog -match $entryPattern) {
+    $entry = $Matches[1].Trim()
+} else {
+    throw "CHANGELOG.md has no '## [$Version]' section; add one before publishing."
+}
+
 $notes = (Get-Content "packaging\RELEASE-NOTES.md" -Raw).
     Replace("@VERSION@", $Version).
+    Replace("@CHANGELOG@", $entry).
     Replace("@SIZE@", "$mb").
     Replace("@SHA_SIZE@", "$shaBytes").
     Replace("@SHA256@", $hash)
