@@ -112,6 +112,7 @@ def build_qss():
 
     /* --- picker tiles -------------------------------------------------- */
     QWidget#pickerPopup, QWidget#pickerBody {{ background: {PANEL}; }}
+    QWidget#pickerPopup {{ border: 1px solid {BORDER}; }}
     QToolButton#symbolCell, QToolButton#emojiCell {{
         background: {CARD};
         border: none;

@@ -295,6 +295,10 @@ class ProfileView(QWidget):
             self._picker = SymbolPickerPopup(self)
             self._picker.symbol_chosen.connect(self._insert_symbol)
         picker = self._picker
+        if picker.isVisible():
+            picker.close()
+            self.name_edit.setFocus()
+            return
         frame = self.window().frameGeometry()
 
         # keep the popup inside the app window
@@ -311,6 +315,19 @@ class ProfileView(QWidget):
         picker.move(x, y)
         picker.show()
         picker.raise_()
+        # The picker never takes focus, so the caret stays (and typing keeps
+        # working) in the name field while it is open.
+        self.name_edit.setFocus()
+
+    def hideEvent(self, event):
+        if self._picker is not None:
+            self._picker.hide()
+        super().hideEvent(event)
+
+    def hide_picker(self):
+        """Close the picker, e.g. when the app window is deactivated."""
+        if self._picker is not None:
+            self._picker.hide()
 
     def _insert_symbol(self, char):
         if len(self.name_edit.text()) + len(char) > 16:
@@ -323,6 +340,8 @@ class ProfileView(QWidget):
             self._picker.panel.clear_notice()
         self.name_edit.insert(char)
         self._update_counter()
+        # Keep the caret (and the keyboard) in the name field.
+        self.name_edit.setFocus()
 
     def reset_name(self):
         self.name_edit.setText(self._original)

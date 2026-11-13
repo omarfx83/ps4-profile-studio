@@ -5,10 +5,11 @@ Both kinds of glyph land in the same name field, so the panel exposes a single
 """
 
 from PySide6.QtCore import QSize, Qt, QTimer, Signal
-from PySide6.QtGui import QColor, QFont, QIcon, QPainter, QPen
+from PySide6.QtGui import (QColor, QFont, QIcon, QKeySequence, QPainter, QPen,
+                           QShortcut)
 from PySide6.QtWidgets import (QAbstractButton, QButtonGroup, QGridLayout,
-                               QHBoxLayout, QLabel, QScrollArea, QToolButton,
-                               QVBoxLayout, QWidget)
+                               QHBoxLayout, QLabel, QPushButton, QScrollArea,
+                               QToolButton, QVBoxLayout, QWidget)
 
 from .. import emoji as emoji_data
 from .. import theme
@@ -37,6 +38,7 @@ class ToneSwatch(QAbstractButton):
         self.setCheckable(True)
         self.setFixedSize(26, 26)
         self.setCursor(Qt.PointingHandCursor)
+        self.setFocusPolicy(Qt.NoFocus)
         self.setToolTip(tip)
 
     def paintEvent(self, event):
@@ -86,6 +88,7 @@ class EmojiButton(QToolButton):
     def __init__(self, item, char=None, tone_label=None, parent=None):
         super().__init__(parent)
         self.setObjectName("emojiCell")
+        self.setFocusPolicy(Qt.NoFocus)
         self.value = char or item["char"]
         self._slots = len(self.value)
         self._code = flag_code(self.value)
@@ -159,13 +162,17 @@ class SymbolsPanel(QWidget):
         layout = QVBoxLayout(self)
         layout.setContentsMargins(12, 12, 12, 12)
         layout.setSpacing(8)
+        self.setFocusPolicy(Qt.NoFocus)
 
         self.switch = SegmentedControl(["PS4 symbols", "Emoji"])
+        for button in self.switch.findChildren(QPushButton):
+            button.setFocusPolicy(Qt.NoFocus)
         self.switch.connect_changed(self._set_mode)
         layout.addWidget(self.switch)
 
         head = QHBoxLayout()
         self.combo = ComboBox()
+        self.combo.setFocusPolicy(Qt.NoFocus)
         self.combo.currentIndexChanged.connect(self._populate)
         head.addWidget(self.combo, 1)
         layout.addLayout(head)
@@ -287,6 +294,7 @@ class SymbolsPanel(QWidget):
         for i, item in enumerate(items):
             button = QToolButton()
             button.setObjectName("symbolCell")
+            button.setFocusPolicy(Qt.NoFocus)
             button.setIcon(QIcon(str(item["icon_path"])))
             button.setIconSize(QSize(40, 40))
             button.setFixedSize(56, 56)
@@ -316,18 +324,25 @@ class SymbolsPanel(QWidget):
 
 
 class SymbolPickerPopup(QWidget):
-    """Non-modal symbol picker that behaves like the Windows emoji panel.
+    """Symbol picker that never takes keyboard focus.
 
-    It stays open while you click symbols (each click emits ``symbol_chosen``),
-    and closes only when you click outside it (``Qt.Popup``).
+    It is a non-activating tool window: clicking a tile leaves the caret in the
+    name field, so you can keep typing and deleting while the picker is open.
+    It closes on Escape or by clicking Symbols… again, and it hides when the
+    Profile tab is left.
     """
 
     symbol_chosen = Signal(str)
 
     def __init__(self, parent=None):
-        super().__init__(parent, Qt.Popup)
+        super().__init__(parent, Qt.Tool | Qt.FramelessWindowHint)
         self.setObjectName("pickerPopup")
         self.setWindowTitle("PS4 Symbols")
+        # Do not activate, do not take the focus: the name field keeps the
+        # caret (and the keyboard) while the picker is open.
+        self.setAttribute(Qt.WA_ShowWithoutActivating, True)
+        self.setWindowFlag(Qt.WindowDoesNotAcceptFocus, True)
+        self.setFocusPolicy(Qt.NoFocus)
         self.resize(460, 620)
 
         layout = QVBoxLayout(self)
@@ -335,3 +350,7 @@ class SymbolPickerPopup(QWidget):
         self.panel = SymbolsPanel(self)
         self.panel.symbol_chosen.connect(self.symbol_chosen)
         layout.addWidget(self.panel, 1)
+
+        self._escape = QShortcut(QKeySequence(Qt.Key_Escape), self)
+        self._escape.setContext(Qt.ApplicationShortcut)
+        self._escape.activated.connect(self.close)

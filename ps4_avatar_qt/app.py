@@ -4,6 +4,7 @@ import argparse
 import sys
 from pathlib import Path
 
+from PySide6.QtCore import QEvent
 from PySide6.QtGui import QFont, QFontDatabase, QIcon
 from PySide6.QtWidgets import (QApplication, QHBoxLayout, QMainWindow,
                                QStackedWidget, QVBoxLayout, QWidget)
@@ -113,6 +114,13 @@ class MainWindow(QMainWindow):
         self.avatar_sub.set_current_index(index)
         if index == 1:
             self.send.update_preview()
+
+    def changeEvent(self, event):
+        """Close the picker when the window stops being the active one, so it
+        never floats over another application."""
+        if event.type() == QEvent.ActivationChange and not self.isActiveWindow():
+            self.profile.hide_picker()
+        super().changeEvent(event)
 
     def closeEvent(self, event):
         self.send.close()

@@ -20,6 +20,10 @@ All notable changes to PS4 Profile Studio are recorded here.
   of getting whichever tone happened to be in the list.
 - **Character counter.** The Profile panel shows how many of the 16 characters
   a name uses, and turns amber when the name is full.
+- **The picker keeps the caret in the name field.** It no longer takes the
+  keyboard, so you can keep typing, deleting and clicking emoji without
+  closing it. Escape closes it, and it hides when you leave the tab or switch
+  to another application.
 - **Flags are labelled with their country code** (JP, US, GB) in the picker.
   Windows' emoji font has no flag artwork, so this is what Windows draws for a
   flag character anyway; the console shows the real flag.

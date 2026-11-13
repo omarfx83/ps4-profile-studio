@@ -245,7 +245,9 @@ The **Profile** tab edits a user's **display name** (`online.json` →
      **skin tone**, which applies to every emoji that has one.
 
    Clicking any tile inserts its character straight into the name field — no
-   copy/paste.
+   copy/paste. The picker does **not** take the keyboard: the caret stays in
+   the name field, so you can keep typing and deleting between clicks.
+   **Escape** closes the picker, and so does clicking **Symbols…** again.
 4. **Apply name** asks for **confirmation**. The **Back up before saving**
    toggle (on by default) copies the whole profile folder first, then the app
    uploads **only** `online.json` and **reads it back** to confirm the console
