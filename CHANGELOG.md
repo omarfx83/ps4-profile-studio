@@ -46,6 +46,13 @@ All notable changes to PS4 Profile Studio are recorded here.
   characters, so deleting walked through the tone first and left a plain hand
   behind. Backspace and Delete now remove a whole emoji — flag, tone or joined
   family — in one press.
+- **"Apply name" failed on a dropped console session.** GoldHEN closes idle
+  FTP connections, and the app treated that as a hard error until you pressed
+  Refresh. Every operation now checks the connection and reconnects once
+  before giving up, so applying a name (or sending an avatar) survives a
+  dropped socket. A dropped connection is also no longer mistaken for a
+  profile that has no `online.json`: only a real "not found" answer creates a
+  new file.
 - **Emoji the system font cannot draw are no longer listed.** The picker only
   offers characters your Windows emoji font really renders, so no tile (and no
   inserted name) shows a `?` box.

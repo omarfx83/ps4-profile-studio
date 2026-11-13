@@ -1,8 +1,15 @@
-"""Minimal FTP client for the PS4 GoldHEN FTP server."""
+"""Minimal FTP client for the PS4 GoldHEN FTP server.
+
+GoldHEN's server drops idle control connections now and then, and the app's
+tabs can touch the same connection from different threads. Every operation
+therefore goes through a lock and is retried once on a fresh connection, so a
+dropped socket recovers instead of surfacing as "Failed".
+"""
 
 import io
 import json
 import re
+import threading
 
 import ftplib
 
@@ -13,6 +20,9 @@ from ..models import User
 
 PROFILE_ROOT = "/system_data/priv/cache/profile"
 AVATAR_FILES = tuple(f"avatar{s}.dds" for s in SIZES) + ("avatar440.png",)
+
+# Errors that mean "the socket is gone", not "the server said no".
+_LOST = (EOFError, OSError, ftplib.error_temp, AttributeError, ValueError)
 
 
 def clean_ps4_text(text):
@@ -32,36 +42,68 @@ class PS4FTP:
         self.port = 2121
         self.user = "root"
         self.password = "root"
+        self._lock = threading.RLock()
 
     def connect(self, host, port=2121, user="root", password="root", timeout=12):
-        self.close()
-        ftp = ftplib.FTP(timeout=timeout)
-        ftp.connect(host, int(port))
-        ftp.login(user or "anonymous", password or "")
-        ftp.set_pasv(True)
-        ftp.cwd(PROFILE_ROOT)
-        self.ftp = ftp
-        self.host, self.port = host, int(port)
-        self.user, self.password = user, password
-        return self
+        with self._lock:
+            self.close()
+            ftp = ftplib.FTP(timeout=timeout)
+            ftp.connect(host, int(port))
+            ftp.login(user or "anonymous", password or "")
+            ftp.set_pasv(True)
+            ftp.cwd(PROFILE_ROOT)
+            self.ftp = ftp
+            self.host, self.port = host, int(port)
+            self.user, self.password = user, password
+            return self
 
     def close(self):
-        if self.ftp is not None:
-            try:
-                self.ftp.quit()
-            except Exception:
+        with self._lock:
+            if self.ftp is not None:
                 try:
-                    self.ftp.close()
+                    self.ftp.quit()
                 except Exception:
-                    pass
-            self.ftp = None
+                    try:
+                        self.ftp.close()
+                    except Exception:
+                        pass
+                self.ftp = None
+
+    def reconnect(self):
+        """Open a fresh control connection to the same console."""
+        if not self.host:
+            raise RuntimeError("not connected")
+        return self.connect(self.host, self.port, self.user, self.password)
+
+    def ensure(self):
+        """Make sure the control connection still answers."""
+        with self._lock:
+            if self.ftp is None:
+                return self.reconnect()
+            try:
+                self.ftp.voidcmd("NOOP")
+            except Exception:  # noqa: BLE001
+                return self.reconnect()
+            return self
+
+    def _call(self, fn, *args, **kwargs):
+        """Run an operation, reconnecting once if the socket went away."""
+        with self._lock:
+            try:
+                return fn(*args, **kwargs)
+            except _LOST:
+                self.reconnect()
+                return fn(*args, **kwargs)
 
     def _mlsd(self, path):
-        try:
-            return [(name, dict(facts)) for name, facts in self.ftp.mlsd(path)]
-        except (ftplib.error_perm, ftplib.error_temp, AttributeError):
-            names = self.ftp.nlst(path)
-            return [(n.rstrip("/").rsplit("/", 1)[-1], {}) for n in names]
+        def run():
+            try:
+                return [(name, dict(facts)) for name, facts in self.ftp.mlsd(path)]
+            except (ftplib.error_perm, ftplib.error_temp, AttributeError):
+                names = self.ftp.nlst(path)
+                return [(n.rstrip("/").rsplit("/", 1)[-1], {}) for n in names]
+
+        return self._call(run)
 
     def list_user_dirs(self):
         users = []
@@ -81,11 +123,16 @@ class PS4FTP:
             if limit is None or buf.tell() < limit:
                 buf.write(chunk)
 
-        self.ftp.retrbinary(f"RETR {remote}", sink)
-        return buf.getvalue()
+        def run():
+            buf.seek(0)
+            buf.truncate()
+            self.ftp.retrbinary(f"RETR {remote}", sink)
+            return buf.getvalue()
+
+        return self._call(run)
 
     def upload_bytes(self, data, remote):
-        self.ftp.storbinary(f"STOR {remote}", io.BytesIO(data))
+        self._call(lambda: self.ftp.storbinary(f"STOR {remote}", io.BytesIO(data)))
 
     def read_user(self, uid):
         user = User(uid=uid)

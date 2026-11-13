@@ -11,6 +11,7 @@ and changing it makes the console treat the whole profile cache as invalid and
 rebuild it (losing the name and avatar).
 """
 
+import ftplib
 import json
 import re
 from datetime import datetime
@@ -32,9 +33,16 @@ _VALUE_RE = r'("{key}"\s*:\s*)("(?:[^"\\]|\\.)*")'
 
 
 def _get(ftp, uid, name):
+    """Download a profile file, or None when the console says it is absent.
+
+    Only a "file not found" answer means the file is missing. A dropped
+    connection is raised instead: returning None there would make write_name()
+    mistake a live profile for a brand-new one and overwrite it with an empty
+    template.
+    """
     try:
         return ftp.download_bytes(f"{PROFILE_ROOT}/{uid}/{name}")
-    except Exception:  # noqa: BLE001
+    except ftplib.error_perm:
         return None
 
 
